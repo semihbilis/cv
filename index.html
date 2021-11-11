@@ -28,16 +28,17 @@
     <header class="d-print-none">
       <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
-          <h1 class="site-title mb-0"><i class="far fa-address-card"></i> Özgeçmişim | Güncellendi: 11/2021</h1>
+          <h1 class="site-title mb-0"><i class="far fa-address-card"></i> <label id="SiteTitle">Özgeçmişim | Güncellendi: 11/2021</label></h1>
           <div class="site-nav"> 
             <nav role="navigation">
               <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#about" title="Hakkımda"><span class="menu-title">Hakkımda</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills" title="Beceri"><span class="menu-title">Beceri</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience" title="Deneyim"><span class="menu-title">Deneyim</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#education" title="Eğitim"><span class="menu-title">Eğitim</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact" title="İletişim"><span class="menu-title">İletişim</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="index-en.html" title="Dil"><span class="menu-title">English(en)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" title="Hakkımda"><span class="menu-title" id="About">Hakkımda</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills" title="Beceri"><span class="menu-title" id="Skill">Beceri</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience" title="Deneyim"><span class="menu-title" id="Experience">Deneyim</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#education" title="Eğitim"><span class="menu-title" id="Education">Eğitim</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact" title="İletişim"><span class="menu-title" id="Contact">İletişim</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="index-en.html" title="Dil"><span class="menu-title" id="Language">English(en)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="javascript:language();" title="Dil"><span class="menu-title" id="Language">ChangedLangTest</span></a></li>
               </ul>
             </nav>
           </div>
@@ -55,8 +56,8 @@
             <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/avatar.jpg" width="160" height="160"/></div>
             <div class="header-bio mt-3">
               <div data-aos="zoom-in" data-aos-delay="0">
-                <h2 class="h1">Muhammed Semih BİLİŞ</h2>
-                <p>Mühendis</p>
+                <h2 class="h1" id="NameSurname">Muhammed Semih BİLİŞ</h2>
+                <p id="Title">Mühendis</p>
               </div>
               <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                 <nav role="navigation">
@@ -90,8 +91,8 @@
                 </nav>
               </div>
               <div class="d-print-none">
-                <a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="MSBILIS-CV.pdf" data-aos="fade-right" data-aos-delay="700">İndirilebilir CV</a>
-                <a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">İletişim</a>
+                <a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="MSBILIS-CV.pdf" data-aos="fade-right" data-aos-delay="700" id="DButtonTitle">İndirilebilir CV</a>
+                <a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700" id="BContactTitle">İletişim</a>
               </div>
             </div>
           </div>
@@ -103,18 +104,18 @@
     <div class="about-section">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="h2 fw-light mb-4">Hakkımda</h2>
-          <p>Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.</p>
-          <p>İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.</p>
-          <p>Bir gün birlikte çalışmak dileğiyle.</p>
+          <h2 class="h2 fw-light mb-4" id="TAboutTitle">Hakkımda</h2>
+          <p id="tAbout">Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.<br>
+          İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.<br>
+          Bir gün birlikte çalışmak dileğiyle.</p>
         </div>
         <div class="col-md-5 offset-lg-1">
           <div class="row mt-2">
-            <h2 class="h2 fw-light mb-4">Kişisel Bilgiler</h2>
+            <h2 class="h2 fw-light mb-4" id="PersonalInfoTitle">Kişisel Bilgiler</h2>
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Telefon No
+                <label id="PhoneNumberTitle">Telefon No</label>
               </div>
             </div>
             <div class="col-sm-7">
@@ -127,7 +128,7 @@
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                E-posta
+                <label id="MailTitle">E-posta</label>
               </div>
             </div>
             <div class="col-sm-7">
@@ -136,7 +137,7 @@
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Adres
+                <label id="AddressTitle">Adres</label>
               </div>
             </div>
             <div class="col-sm-7">
@@ -145,31 +146,12 @@
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Yaş
+                <label id="AgeTitle">Yaş</label>
               </div>
             </div>
             <div class="col-sm-7">
               <div class="pb-2">
-                <script type="text/javascript">
-                  bYear=1994;
-                  bMonth=05;
-                  bDay=10;
-                  var nDate=new Date();
-                  nYear=nDate.getFullYear();
-                  nMonth=nDate.getMonth()+1;
-                  nDay=nDate.getDate();
-                  age=nYear-bYear;
-                  if(nMonth<bMonth)
-                  {
-                    age--;
-                  }
-                  if(nMonth==bMonth&&nDay<bDay)
-                  {
-                    age--;
-                  }
-
-                  document.write(age);
-                </script>
+                <label id="TAge">27</label>
                 &nbsp;<i class="fas fa-arrows-alt-h pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
                 10/05/1994
               </div>
@@ -177,38 +159,46 @@
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="fas fa-mars pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Cinsiyet
+                <label id="GenderTitle">Cinsiyet</label>
               </div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">Erkek</div>
+              <div class="pb-2">
+                <label id="Gender">Erkek</label>
+              </div>
             </div>
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="fas fa-ring pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Medeni Durum
+                <label id="MaritalStatusTitle">Medeni Durum</label>
               </div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">Bekâr</div>
+              <div class="pb-2">
+                <label id="MaritalStatus">Bekâr</label>
+              </div>
             </div>
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="fas fa-id-badge pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Sürücü Ehliyeti
+                <label id="DrivingLicenseTitle">Sürücü Ehliyeti</label>
               </div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">B</div>
+              <div class="pb-2">
+                <label id="DrivingLicense">B Sınıfı</label>
+              </div>
             </div>
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder">
                 <i class="fas pe-2 text-muted" style="width:24px;opacity:0.85;"></i>
-                Askerlik Durumu
+                <label id="MilitaryServiceTitle">Askerlik Durumu</label>
               </div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">Muaf (Göz numarası yüksekliği)</div>
+              <div class="pb-2">
+                <label id="MilitaryService">Muaf (Göz numarası yüksekliği)</label>
+              </div>
             </div>
           </div>
         </div>
@@ -217,11 +207,11 @@
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
     <div class="skills-section">
-      <h2 class="h2 fw-light mb-4">Beceri</h2>
+      <h2 class="h2 fw-light mb-4" id="CSkill">Beceri</h2>
       <div class="row">
         <div class="progress my-2 rounded" style="height: 21px">
           <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 100%;" aria-valuenow="100" 
-               aria-valuemin="0" aria-valuemax="100">Programlar</div>
+               aria-valuemin="0" aria-valuemax="100" id="SkillPrograms">Programlar</div>
         </div>
         <div class="col-md-4">
           <div class="mb-3"><span class="fw-bolder">NetCAD</span></div>
@@ -250,19 +240,21 @@
       <div class="row">
         <div class="progress my-2 rounded" style="height: 21px">
           <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 100%;" aria-valuenow="100" 
-               aria-valuemin="0" aria-valuemax="100">Yazılım Geliştirme Teknolojileri</div>
+               aria-valuemin="0" aria-valuemax="100" id="SkillSDT">Yazılım Geliştirme Teknolojileri</div>
         </div>
           <div class="col-md-4">
             <div class="mb-3"><span class="fw-bolder">MATLAB</span></div>
             <div class="mb-3"><span class="fw-bolder">C#</span></div>
             <div class="mb-3"><span class="fw-bolder">VB.NET</span></div>
             <div class="mb-3"><span class="fw-bolder">Access</span></div>
+            <div class="mb-3"><span class="fw-bolder">JavaScript</span></div>
           </div>
           <div class="col-md-4">
             <div class="mb-3"><span class="fw-bolder">HTML</span></div>
             <div class="mb-3"><span class="fw-bolder">CSS</span></div>
             <div class="mb-3"><span class="fw-bolder">SQL</span></div>
             <div class="mb-3"><span class="fw-bolder">MySQL</span></div>
+            <div class="mb-3"><span class="fw-bolder">JSON</span></div>
           </div>
           <div class="col-md-4">
             <div class="mb-3"><span class="fw-bolder">ASP.NET</span></div>
@@ -274,23 +266,35 @@
       <div class="row">
         <div class="progress my-2 rounded" style="height: 21px">
           <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 100%;" aria-valuenow="100" 
-               aria-valuemin="0" aria-valuemax="100">Yabancı Dil [İngilizce]</div>
+               aria-valuemin="0" aria-valuemax="100" id="SkillFLTitle">Yabancı Dil [İngilizce]</div>
         </div>
         <div class="col-md-4">
-          <div class="mb-3"><span class="fw-bolder">Konuşma: Başlangıç</span></div>
+          <div class="mb-3">
+            <span class="fw-bolder">
+              <label id="SkillFLSpeaking">Konuşma</label>: <label id="SkillFLSBeginner">Başlangıç</label>
+            </span>
+          </div>
         </div>
         <div class="col-md-4">
-          <div class="mb-3"><span class="fw-bolder">Okuma: Başlangıç</span></div>
+          <div class="mb-3">
+            <span class="fw-bolder">
+              <label id="SkillFLReading">Okuma</label>: <label id="SkillFLRBeginner">Başlangıç</label>
+            </span>
+          </div>
         </div>
         <div class="col-md-4">
-          <div class="mb-3"><span class="fw-bolder">Yazma: Başlangıç</span></div>
+          <div class="mb-3">
+            <span class="fw-bolder">
+              <label id="SkillFLWriting">Yazma</label>: <label id="SkillFLWBeginner">Başlangıç</label>
+            </span>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
     <div class="work-experience-section">
-      <h2 class="h2 fw-light mb-4">Deneyim</h2>
+      <h2 class="h2 fw-light mb-4" id="CExperience">Deneyim</h2>
       <div class="timeline">
         <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
           <div class="timeline-head px-4 pt-3">
@@ -363,7 +367,7 @@
         <div class="timeline">
           <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
             <div class="timeline-head px-4 pt-3">
-              <div class="h5">Statik Websiteler <span class="text-muted h6">teknolojiler JavaScript, CSS, HTML</span></div>
+              <div class="h5">Statik Websiteler <span class="text-muted h6">teknolojiler JavaScript, CSS, HTML, JSON</span></div>
             </div>
             <div class="timeline-body px-4">
               <div>Firma ürünlerinin ve kurumsal kimliğinin gösterildiği OnePage veya MultiPage websiteler.</div>
@@ -383,7 +387,7 @@
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="education">
     <div class="education-section">
-      <h2 class="h2 fw-light mb-4">Eğitim</h2>
+      <h2 class="h2 fw-light mb-4" id="CEducation">Eğitim</h2>
       <div class="timeline">
         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
           <div class="timeline-head px-4 pt-3">
@@ -422,7 +426,7 @@
   </div>
   <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
     <div class="contant-section">
-      <h2 class="h2 fw-light text mb-4">İletişim</h2>
+      <h2 class="h2 fw-light text mb-4" id="CContact">İletişim</h2>
       <div class="row mb-4">
         <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
           <div class="mt-1">
@@ -440,17 +444,17 @@
     method="POST">
   <div class="form-outline mb-4">
     <input type="text" id="name" class="form-control" required/>
-    <label class="form-label" for="name">İsim Soyisim</label>
+    <label class="form-label" for="name" id="cFormNameSurname">İsim Soyisim</label>
   </div>
   <div class="form-outline mb-4">
     <input type="email" id="email" class="form-control" required/>
-    <label class="form-label" for="email">E-posta Adresi</label>
+    <label class="form-label" for="email" id="cFormEmail">E-posta Adresi</label>
   </div>
   <div class="form-outline mb-4">
     <textarea class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
-    <label class="form-label" for="message">Mesaj</label>
+    <label class="form-label" for="message" id="cFormMessage">Mesaj</label>
   </div>
-  <button class="btn btn-info btn-block mb-4" type="submit">Gönder</button>
+  <button class="btn btn-info btn-block mb-4" type="submit" id="cFormButton">Gönder</button>
 </form>
           </div>
         </div>
@@ -488,6 +492,7 @@
     </footer>
     <script src="scripts/mdb.min.js?ver=1.2.1"></script>
     <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/CV.json"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
   </body>
 </html>
