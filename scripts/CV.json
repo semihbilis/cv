@@ -1,0 +1,221 @@
+{
+    "lang" :
+    [
+        "tr",
+        "en"
+    ],
+
+    "siteTitle" :
+    [
+        "Özgeçmiş",
+        "Resume"
+    ],
+    "updatedText":
+    [
+        "Güncellendi",
+        "Updated"
+    ],
+    "cvUpdated" : "11/2021",
+    "about":
+    [
+        "Hakkımda",
+        "About"
+    ],
+    "skill":
+    [
+        "Beceri",
+        "Skill"
+    ],
+    "experience":
+    [
+        "Deneyim",
+        "Experience"
+    ],
+    "education":
+    [
+        "Eğitim",
+        "Education"
+    ],
+    "contact":
+    [
+        "İletişim",
+        "Contact"
+    ],
+    "language":
+    [
+        "Türkçe",
+        "English"
+    ],
+    "nameSurname" : "Muhammed Semih BİLİŞ",
+    "title":
+    [
+        "Mühendis",
+        "Engineer"
+    ],
+    "dButtonTitle":
+    [
+        "İNDİRİLEBİLİR CV",
+        "DOWNLOAD CV"
+    ],
+    "bContactTitle":
+    [
+        "İLETİŞİM",
+        "CONTACT ME"
+    ],
+    "tAboutTitle":
+    [
+        "Hakkımda",
+        "About Me"
+    ],
+    "tAbout":
+    {
+        "tr":
+        [
+            "Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.",
+            "İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.",
+            "Bir gün birlikte çalışmak dileğiyle."
+        ],
+        "en":
+        [
+            "In line with my education and experience, I had the opportunity to work with different people, to take part in a team and to learn how to produce together. Therefore, I think I will easily adapt to your team.",
+            "I am a person who loves his job and pays great attention to details. I have often experienced that being flexible in human relations returns me as productivity. He attaches great importance to learning new things and improving my skills, and for this purpose, I think that it is necessary to benefit from the teaching of human relations. That's why it's so important to me to exchange information with the people on my team.",
+            "Hope to work together one day."
+        ]
+    },
+    "personalInfoTitle":
+    [
+        "Kişisel Bilgiler",
+        "Personal Information"
+    ],
+    "phoneNumberTitle":
+    [
+        "Telefon Numarası",
+        "Phone Number"
+    ],
+    "mailTitle":
+    [
+        "E-posta",
+        "E-mail"
+    ],
+    "addressTitle":
+    [
+        "Adres",
+        "Address"
+    ],
+    "ageTitle":
+    [
+        "Yaş",
+        "Age"
+    ],
+    "birthDay":
+    {
+        "year" : 1994,
+        "month" : 5,
+        "day" : 10
+    },
+    "genderTitle":
+    [
+        "Cinsiyet",
+        "Gender"
+    ],
+    "gender":
+    [
+        "Erkek",
+        "Male"
+    ],
+    "maritalStatusTitle":
+    [
+        "Medeni Durum",
+        "Marital Status"
+    ],
+    "maritalStatus":
+    [
+        "Bekâr",
+        "Single"
+    ],
+    "drivingLicenseTitle":
+    [
+        "Sürücü Ehliyeti",
+        "Driving License"
+    ],
+    "drivingLicense":
+    [
+        "B Sınıfı", "Class B"
+    ],
+    "militaryServiceTitle":
+    [
+        "Askerlik Durumu",
+        "Military Service"
+    ],
+    "militaryService":
+    [
+        "Muaf (Göz numarası yüksekliği)",
+        "Exempted"
+    ],
+    "skillPrograms":
+    [
+        "PROGRAMLAR",
+        "PROGRAMS"
+    ],
+    "skillSDT":
+    [
+        "YAZILIM GELİŞTİRME TEKNOLOJİLERİ",
+        "SOFTWARE DEVELOPMENT TECHNOLOGİES"
+    ],
+    "skillFLTitle":
+    [
+        "YABANCI DİL [İNGİLİZCE]",
+        "FOREİGN LANGUAGE [ENGLİSH]"
+    ],
+    "skillFLSpeaking":
+    [
+        "Konuşma",
+        "Speaking"
+    ],
+    "skillFLReading":
+    [
+        "Okuma",
+        "Reading"
+    ],
+    "skillFLWriting":
+    [
+        "Yazma",
+        "Writing"
+    ],
+    "skillFLBeginner":
+    [
+        "Başlangıç",
+        "Beginner"
+    ],
+
+
+
+
+    
+
+
+
+    "cForm":
+    {
+        "NameSurname":
+        [
+            "İsim Soyisim",
+            "Name Surname"
+        ],
+        "Mail":
+        [
+            "E-posta Adresi",
+            "E-mail address"
+        ],
+        "Message":
+        [
+            "Mesaj",
+            "Message"
+        ],
+        "Button":
+        [
+            "Gönder",
+            "Send"
+        ]
+    }
+}
