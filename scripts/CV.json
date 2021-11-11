@@ -1,9 +1,11 @@
 {
     "lang" :
-    [
-        "tr",
-        "en"
-    ],
+    {
+        "0" : "tr",
+        "1" : "en"
+    },
+
+
 
     "siteTitle" :
     [
@@ -16,6 +18,9 @@
         "Updated"
     ],
     "cvUpdated" : "11/2021",
+
+
+
     "about":
     [
         "Hakkımda",
@@ -46,12 +51,18 @@
         "Türkçe",
         "English"
     ],
+
+
+
     "nameSurname" : "Muhammed Semih BİLİŞ",
     "title":
     [
         "Mühendis",
         "Engineer"
     ],
+
+
+
     "dButtonTitle":
     [
         "İNDİRİLEBİLİR CV",
@@ -62,6 +73,9 @@
         "İLETİŞİM",
         "CONTACT ME"
     ],
+
+
+
     "tAboutTitle":
     [
         "Hakkımda",
@@ -69,19 +83,22 @@
     ],
     "tAbout":
     {
-        "tr":
+        "0":
         [
             "Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.",
             "İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.",
             "Bir gün birlikte çalışmak dileğiyle."
         ],
-        "en":
+        "1":
         [
             "In line with my education and experience, I had the opportunity to work with different people, to take part in a team and to learn how to produce together. Therefore, I think I will easily adapt to your team.",
             "I am a person who loves his job and pays great attention to details. I have often experienced that being flexible in human relations returns me as productivity. He attaches great importance to learning new things and improving my skills, and for this purpose, I think that it is necessary to benefit from the teaching of human relations. That's why it's so important to me to exchange information with the people on my team.",
             "Hope to work together one day."
         ]
     },
+
+
+
     "personalInfoTitle":
     [
         "Kişisel Bilgiler",
@@ -152,6 +169,7 @@
         "Muaf (Göz numarası yüksekliği)",
         "Exempted"
     ],
+
     "skillPrograms":
     [
         "PROGRAMLAR",
@@ -189,6 +207,94 @@
     ],
 
 
+
+    "companyText":
+    [
+        "firma",
+        "at"
+    ],
+    "experienceWork":
+    {
+        "Ars":
+        {
+            "workTitle":
+            [
+                "Geomatik Mühendisi",
+                "Geomatic Engineer"
+            ],
+            "companyName":
+            [
+                "ARS Mühendislik Danışmanlık Tic. A.Ş.",
+                "ARS Engineering and Consulting Inc."
+            ],
+            "dateWork":
+            [
+                "Aralık,2019 - Ocak,2021",
+                "Dec, 2019 - Aug, 2021"
+            ],
+            "description":
+            [
+                "Hidrografik, Jeofiziksel, Jeoteknik ve Oşinografik araştırma hizmetlerinin sunulduğu firmada Hidrografik araştırma ve raporlama da proje hazırlama, veri toplama, işleme ve raporlama aşamaları yapıldı.",
+                "In the company where Hydrographic, Geophysical, Geotechnical and Oceanographic research services are provided, I was doing the project preparation, data collection, processing and reporting stages in Hydrographic research and reporting."
+            ]
+        },
+        "Ind":
+        {
+            "workTitle":
+            [
+                "Veri Toplama, Üretim ve Entegrasyon Uzmanı",
+                "Data Collection, Production and Integration Specialist"
+            ],
+            "companyName":
+            [
+                "IND Yazılım Bilişim Teknolojileri Sanayi ve Tic. A. Ş.",
+                "IND Software Information Technologies Industry and Trade Inc."
+            ],
+            "dateWork":
+            [
+                "Ekim, 2018 - Ocak, 2019",
+                "Oct, 2018 - Jan, 2019"
+            ],
+            "description":
+            [
+                "İçişleri Bakanlığı'nın ve Nüfus ve Vatandaşlık İşleri Genel Müdürlüğünün ortak başlattığı Mekansal Adres Kayıt Sistemi(MAKS) projesi kapsamında belediyelerin ve il özel idarelerinin sorumluluğu içerisinde bulunan yapıların, diğer yapıların ve yolların halihazırdaki durumlarının kontrolü ve bunlara ait altlık oluşturacak verilerin tespiti ve bu verilerin ulusal adres veri tabanı kayıtlarıyla karşılaştırılıp sisteme entegre edilmesi yapıldı.",
+                "Within the scope of the Spatial Address Registration System (MAKS) project, jointly initiated by the Ministry of Interior and the General Directorate of Population and Citizenship Affairs, the control of the current status of the structures, other structures and roads that are under the responsibility of municipalities and special provincial administrations, and the determination of the data that will form the basis for them, and the determination of the national data of these data. I was making sure that they were compared with the address database records and integrated into the system."
+            ]
+        },
+        "Kordil":
+        {
+            "workTitle":
+            [
+                "Geomatik Mühendisi",
+                "Geomatic Engineer"
+            ],
+            "companyName":
+            [
+                "Kordil Mühendislik Sanayi ve Ticaret Ltd. Şti.",
+                "Kordil Surveying & Engineering Ltd. Co."
+            ],
+            "dateWork":
+            [
+                "Mart, 2017 - Ocak, 2018",
+                "Mar, 2017 - Jan, 2018"
+            ],
+            "description":
+            [
+                "Plankote ve halihazır harita yapımı, inşaat ve yapı sektörü, multibeam ve singlebeam batimetri gibi ölçme tekniklerinde tecrübeler edinildi.",
+                "I gained experience in surveying techniques such as dimentional plan and existing map making, construction and building industry, multibeam and singlebeam bathymetry."
+            ]
+        }
+    },
+
+
+
+
+
+    "softwareDevelopmentTitle":
+    [
+        "Yazılım Geliştirme",
+        "Software Development"
+    ],
 
 
     
