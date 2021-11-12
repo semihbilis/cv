@@ -4,9 +4,14 @@ AOS.init({
   duration: 1000
 });
 
-// Add your javascript here
+dataLoading();
 
 var lang=0;
+
+document.getElementById("scrollUp").addEventListener('click', function(event) {
+  window.scrollTo(0, 'slow');
+},false);
+
 
 function languageChange()
 {
@@ -43,16 +48,20 @@ function dataLoading()
     }
   }).then(response => response.json()).then(data =>
     {
-    dataChanged("SiteTitle", data.siteTitle[lang] + " | "+ data.updatedText[lang] +": " + data.cvUpdated);
+    dataChanged("SiteTitle", data.siteTitle[lang] + " | "+ data.updatedText[lang] +": " + data.cvUpdated[lang]);
 
     dataChanged("About",data.about[lang]);
     dataChanged("Skill",data.skill[lang]);
     dataChanged("Experience",data.experience[lang]);
     dataChanged("Education",data.education[lang]);
-    dataChanged("CEducation",data.education[lang]);
     dataChanged("Contact",data.contact[lang]);
-    dataChanged("CContact",data.contact[lang]);
-    dataChanged("Language",data.language[lang]+"("+data.lang[lang]+")");
+    if (lang >= (Object.keys(data.lang).length-1))
+    {
+      let l = 0;
+      dataChanged("Language",data.language[l]+"("+data.lang[l]+")");
+    } else {
+      dataChanged("Language",data.language[lang+1]+"("+data.lang[lang+1]+")");
+    }
 
     dataChanged("NameSurname", data.nameSurname);
     dataChanged("Title", data.title[lang]);
@@ -125,51 +134,104 @@ function dataLoading()
     for (const key in data.experienceWork) 
     {
       document.getElementById("ExperienceWork").innerHTML += "<div class='timeline-card timeline-card-info' data-aos='fade-in' data-aos-delay='0'>"+
-      "<div class='timeline-head px-4 pt-3'>"+
-        "<div class='h5'>"+
-          "<label id='WorkTitle'>"+
-          data.experienceWork[key].workTitle[lang]+
-          "</label>"+
-          "<span class='text-muted h6'>"+
-            "<label id='CompanyText'>&nbsp;"+
-            data.companyText[lang]+
-            "</label>"+
-            "<label id='CompanyName'>&nbsp;"+
-            data.experienceWork[key].companyName[lang]+
-            "</label>"+
-          "</span>"+
+        "<div class='timeline-head px-4 pt-3'>"+
+          "<div class='h5'>"+
+              data.experienceWork[key].workTitle[lang]+
+            "<span class='text-muted h6'>&nbsp;"+
+              data.companyText[lang]+
+              "&nbsp;"+
+              data.experienceWork[key].companyName[lang]+
+            "</span>"+
+          "</div>"+
         "</div>"+
-      "</div>"+
-      "<div class='timeline-body px-4 pb-4'>"+
-        "<div class='text-muted text-small mb-3'>"+
-        data.experienceWork[key].dateWork[lang]+
-        "</div>"+
-        "<div>"+
-        data.experienceWork[key].description[lang]+
+        "<div class='timeline-body px-4 pb-4'>"+
+          "<div class='text-muted text-small mb-3'>"+
+            data.experienceWork[key].dateWork[lang]+
+          "</div>"+
+          "<div>"+
+            data.experienceWork[key].description[lang]+
+          "</div>"+
         "</div>"+
       "</div>";
     }
 
     dataChanged("SoftwareDevelopmentTitle", data.softwareDevelopmentTitle[lang]);
-
-
+    if (document.getElementById("ExperienceSoftware").innerHTML != null)
+    {
+      document.getElementById("ExperienceSoftware").innerHTML = "";
+    }
+    for (const cat in data.experienceSoftware)
+    {
+      document.getElementById("ExperienceSoftware").innerHTML += "<div class='progress my-2 rounded' style='height: 21px'>"+
+        "<div class='progress-bar bg-info' role='progressbar' data-aos='zoom-in-right' data-aos-delay='100' data-aos-anchor='.skills-section' style='width: 100%;' aria-valuenow='100' aria-valuemin='0' aria-valuemax='100'>"+
+          data.experienceSoftware[cat].title[lang]+
+        "</div>"+
+      "</div>"+
+      "<div class='timeline' id='"+cat+"'></div>";
+      for (const con in data.experienceSoftware[cat])
+      {
+        if (con == "contents")
+        {
+          for (const p in data.experienceSoftware[cat][con])
+          {
+            document.getElementById(cat).innerHTML += "<div class='timeline-card timeline-card-info' data-aos='fade-in' data-aos-delay='0'>"+
+              "<div class='timeline-head px-4 pt-3'>"+
+                "<div class='h5'>"+
+                    data.experienceSoftware[cat][con][p].name[lang]+
+                    "<span class='text-muted h6'>&nbsp;"+
+                      data.technologiesText[lang]+
+                      "&nbsp;"+
+                      data.experienceSoftware[cat][con][p].usedTechnologies[lang]+
+                    "</span>"+
+                "</div>"+
+              "</div>"+
+              "<div class='timeline-body px-4'>"+
+                "<div>"+
+                  data.experienceSoftware[cat][con][p].description[lang]+
+                "</div>"+
+              "</div>"+
+            "</div>";
+          } 
+        }
+      }
+    }
     
-    
+    dataChanged("CEducation",data.education[lang]);
+    if (document.getElementById("EducationContents").innerHTML != "")
+    {
+      document.getElementById("EducationContents").innerHTML = "";  
+    }
+    for (const school in data.educationContents)
+    {
+      document.getElementById("EducationContents").innerHTML += "<div class='timeline-card timeline-card-success' data-aos='fade-in' data-aos-delay='0'>"+
+        "<div class='timeline-head px-4 pt-3'>"+
+          "<div class='h5'>"+
+            data.educationContents[school].graduated[lang]+
+            "<span class='text-muted h6'>&nbsp;"+
+              data.educationText[lang]+
+              "&nbsp;"+
+              data.educationContents[school].title[lang]+
+            "</span>"+
+          "</div>"+
+        "</div>"+
+        "<div class='timeline-body px-4'>"+
+          "<div class='text-muted text-small'>"+
+          data.educationContents[school].dateEdu[lang]+
+          "</div>"+
+        "</div>"+
+      "</div>";
+    }
 
-
-
-
-
-
-
+    dataChanged("CContact",data.contact[lang]);
     dataChanged("cFormNameSurname", data.cForm.NameSurname[lang]);
     dataChanged("cFormEmail", data.cForm.Mail[lang]);
     dataChanged("cFormMessage", data.cForm.Message[lang]);
     dataChanged("cFormButton", data.cForm.Button[lang]);
 
+    dataChanged("Design", data.Footer.design[lang]);
+    dataChanged("Developer", data.Footer.developer[lang]);
+
 
 
   })
 }
-
-dataLoading();
