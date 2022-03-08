@@ -19,7 +19,7 @@ document.getElementById("scrollUp").addEventListener('click', function (event) {
 function onLoad() {
     console.log("test = " + test);
     console.log("lang = " + lang);
-    console.log("sg = " + sG);
+    console.log("sG = " + sG);
 }
 
 function languageChange() {
