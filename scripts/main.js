@@ -4,11 +4,12 @@ AOS.init({
     duration: 1000
 });
 
+var lang = 0;
+var sG = 0;
+
 dataLoading();
 onLoad();
 
-var lang = 0;
-var sG = 0;
 
 document.getElementById("scrollUp").addEventListener('click', function (event) {
     window.scrollTo(0, 'slow');
