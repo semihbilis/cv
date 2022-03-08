@@ -15,7 +15,7 @@ document.getElementById("scrollUp").addEventListener('click', function (event) {
 }, false);
 
 function onLoad() {
-    console.log(sG);
+    console.log("sg = " + sG);
 }
 
 function languageChange() {
