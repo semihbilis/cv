@@ -6,7 +6,6 @@ AOS.init({
 
 var lang = 0;
 var sG = 0;
-var test = 0;
 
 dataLoading();
 onLoad();
@@ -17,8 +16,6 @@ document.getElementById("scrollUp").addEventListener('click', function (event) {
 }, false);
 
 function onLoad() {
-    console.log("test = " + test);
-    console.log("lang = " + lang);
     console.log("sG = " + sG);
 }
 
