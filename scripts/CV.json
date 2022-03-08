@@ -1,523 +1,419 @@
 {
-    "lang":
-    {
-        "0" : "tr",
-        "1" : "en"
+  "lang": {
+    "0": "tr",
+    "1": "en"
+  },
+
+  "siteTitle": [
+    "Özgeçmiş",
+    "Resume"
+  ],
+  "updatedText": [
+    "Güncellendi",
+    "Updated"
+  ],
+  "cvUpdated": [
+    "11/2021",
+    "11/2021 | Translated by Google"
+  ],
+
+  "about": [
+    "Hakkımda",
+    "About"
+  ],
+  "skill": [
+    "Beceri",
+    "Skill"
+  ],
+  "experience": [
+    "Deneyim",
+    "Experience"
+  ],
+  "education": [
+    "Eğitim",
+    "Education"
+  ],
+  "contact": [
+    "İletişim",
+    "Contact"
+  ],
+  "language": [
+    "Türkçe",
+    "English"
+  ],
+
+  "nameSurname": "Muhammed Semih BİLİŞ",
+  "title": [
+    "Mühendis",
+    "Engineer"
+  ],
+
+  "dButtonTitle": [
+    "İNDİRİLEBİLİR CV",
+    "DOWNLOAD CV"
+  ],
+  "bContactTitle": [
+    "İLETİŞİM",
+    "CONTACT ME"
+  ],
+
+  "tAboutTitle": [
+    "Hakkımda",
+    "About Me"
+  ],
+  "tAbout": {
+    "0": [
+      "Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.",
+      "İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.",
+      "Bir gün birlikte çalışmak dileğiyle."
+    ],
+    "1": [
+      "In line with my education and experience, I had the opportunity to work with different people, to take part in a team and to learn how to produce together. Therefore, I think I will easily adapt to your team.",
+      "I am a person who loves his job and pays great attention to details. I have often experienced that being flexible in human relations returns me as productivity. He attaches great importance to learning new things and improving my skills, and for this purpose, I think that it is necessary to benefit from the teaching of human relations. That's why it's so important to me to exchange information with the people on my team.",
+      "Hope to work together one day."
+    ]
+  },
+
+  "personalInfoTitle": [
+    "Kişisel Bilgiler",
+    "Personal Information"
+  ],
+  "phoneNumberTitle": [
+    "Telefon Numarası",
+    "Phone Number"
+  ],
+  "mailTitle": [
+    "E-posta",
+    "E-mail"
+  ],
+  "addressTitle": [
+    "Adres",
+    "Address"
+  ],
+  "ageTitle": [
+    "Yaş",
+    "Age"
+  ],
+  "birthDay": {
+    "year": 1994,
+    "month": 5,
+    "day": 10
+  },
+  "genderTitle": [
+    "Cinsiyet",
+    "Gender"
+  ],
+  "gender": [
+    "Erkek",
+    "Male"
+  ],
+  "maritalStatusTitle": [
+    "Medeni Durum",
+    "Marital Status"
+  ],
+  "maritalStatus": [
+    "Bekâr",
+    "Single"
+  ],
+  "drivingLicenseTitle": [
+    "Sürücü Ehliyeti",
+    "Driving License"
+  ],
+  "drivingLicense": [
+    "B Sınıfı",
+    "Class B"
+  ],
+  "militaryServiceTitle": [
+    "Askerlik Durumu",
+    "Military Service"
+  ],
+  "militaryService": [
+    "Muaf (Göz numarası yüksekliği)",
+    "Exempted"
+  ],
+
+  "skillPrograms": [
+    "PROGRAMLAR",
+    "PROGRAMS"
+  ],
+  "skillSDT": [
+    "YAZILIM GELİŞTİRME TEKNOLOJİLERİ",
+    "SOFTWARE DEVELOPMENT TECHNOLOGİES"
+  ],
+  "skillFLTitle": [
+    "YABANCI DİL [İNGİLİZCE]",
+    "FOREİGN LANGUAGE [ENGLİSH]"
+  ],
+  "skillFLSpeaking": [
+    "Konuşma",
+    "Speaking"
+  ],
+  "skillFLReading": [
+    "Okuma",
+    "Reading"
+  ],
+  "skillFLWriting": [
+    "Yazma",
+    "Writing"
+  ],
+  "skillFLBeginner": [
+    "Başlangıç",
+    "Beginner"
+  ],
+
+  "companyText": [
+    "firma",
+    "at"
+  ],
+  "experienceWork": {
+    "Ars": {
+      "workTitle": [
+        "Geomatik Mühendisi",
+        "Geomatics Engineer"
+      ],
+      "companyName": [
+        "ARS Mühendislik Danışmanlık Tic. A.Ş.",
+        "ARS Engineering and Consulting Inc."
+      ],
+      "dateWork": [
+        "Aralık,2019 - Ocak,2021",
+        "Dec, 2019 - Aug, 2021"
+      ],
+      "description": [
+        "Hidrografik, Jeofiziksel, Jeoteknik ve Oşinografik araştırma hizmetlerinin sunulduğu firmada Hidrografik araştırma ve raporlama da proje hazırlama, veri toplama, işleme ve raporlama aşamaları yapıldı.",
+        "In the company where Hydrographic, Geophysical, Geotechnical and Oceanographic research services are provided, I was doing the project preparation, data collection, processing and reporting stages in Hydrographic research and reporting."
+      ]
     },
-
-    "siteTitle":
-    [
-        "Özgeçmiş",
-        "Resume"
-    ],
-    "updatedText":
-    [
-        "Güncellendi",
-        "Updated"
-    ],
-    "cvUpdated":
-    [
-        "11/2021",
-        "11/2021 | Translated by Google"
-    ],
-
-    "about":
-    [
-        "Hakkımda",
-        "About"
-    ],
-    "skill":
-    [
-        "Beceri",
-        "Skill"
-    ],
-    "experience":
-    [
-        "Deneyim",
-        "Experience"
-    ],
-    "education":
-    [
-        "Eğitim",
-        "Education"
-    ],
-    "contact":
-    [
-        "İletişim",
-        "Contact"
-    ],
-    "language":
-    [
-        "Türkçe",
-        "English"
-    ],
-
-    "nameSurname" : "Muhammed Semih BİLİŞ",
-    "title":
-    [
-        "Mühendis",
-        "Engineer"
-    ],
-
-    "dButtonTitle":
-    [
-        "İNDİRİLEBİLİR CV",
-        "DOWNLOAD CV"
-    ],
-    "bContactTitle":
-    [
-        "İLETİŞİM",
-        "CONTACT ME"
-    ],
-
-    "tAboutTitle":
-    [
-        "Hakkımda",
-        "About Me"
-    ],
-    "tAbout":
-    {
-        "0":
-        [
-            "Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.",
-            "İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.",
-            "Bir gün birlikte çalışmak dileğiyle."
-        ],
-        "1":
-        [
-            "In line with my education and experience, I had the opportunity to work with different people, to take part in a team and to learn how to produce together. Therefore, I think I will easily adapt to your team.",
-            "I am a person who loves his job and pays great attention to details. I have often experienced that being flexible in human relations returns me as productivity. He attaches great importance to learning new things and improving my skills, and for this purpose, I think that it is necessary to benefit from the teaching of human relations. That's why it's so important to me to exchange information with the people on my team.",
-            "Hope to work together one day."
-        ]
+    "Ind": {
+      "workTitle": [
+        "Veri Toplama, Üretim ve Entegrasyon Uzmanı",
+        "Data Collection, Production and Integration Specialist"
+      ],
+      "companyName": [
+        "IND Yazılım Bilişim Teknolojileri Sanayi ve Tic. A. Ş.",
+        "IND Software Information Technologies Industry and Trade Inc."
+      ],
+      "dateWork": [
+        "Ekim, 2018 - Ocak, 2019",
+        "Oct, 2018 - Jan, 2019"
+      ],
+      "description": [
+        "İçişleri Bakanlığı'nın ve Nüfus ve Vatandaşlık İşleri Genel Müdürlüğünün ortak başlattığı Mekansal Adres Kayıt Sistemi(MAKS) projesi kapsamında belediyelerin ve il özel idarelerinin sorumluluğu içerisinde bulunan yapıların, diğer yapıların ve yolların halihazırdaki durumlarının kontrolü ve bunlara ait altlık oluşturacak verilerin tespiti ve bu verilerin ulusal adres veri tabanı kayıtlarıyla karşılaştırılıp sisteme entegre edilmesi yapıldı.",
+        "Within the scope of the Spatial Address Registration System (MAKS) project, jointly initiated by the Ministry of Interior and the General Directorate of Population and Citizenship Affairs, the control of the current status of the structures, other structures and roads that are under the responsibility of municipalities and special provincial administrations, and the determination of the data that will form the basis for them, and the determination of the national data of these data. I was making sure that they were compared with the address database records and integrated into the system."
+      ]
     },
-
-    "personalInfoTitle":
-    [
-        "Kişisel Bilgiler",
-        "Personal Information"
-    ],
-    "phoneNumberTitle":
-    [
-        "Telefon Numarası",
-        "Phone Number"
-    ],
-    "mailTitle":
-    [
-        "E-posta",
-        "E-mail"
-    ],
-    "addressTitle":
-    [
-        "Adres",
-        "Address"
-    ],
-    "ageTitle":
-    [
-        "Yaş",
-        "Age"
-    ],
-    "birthDay":
-    {
-        "year" : 1994,
-        "month" : 5,
-        "day" : 10
-    },
-    "genderTitle":
-    [
-        "Cinsiyet",
-        "Gender"
-    ],
-    "gender":
-    [
-        "Erkek",
-        "Male"
-    ],
-    "maritalStatusTitle":
-    [
-        "Medeni Durum",
-        "Marital Status"
-    ],
-    "maritalStatus":
-    [
-        "Bekâr",
-        "Single"
-    ],
-    "drivingLicenseTitle":
-    [
-        "Sürücü Ehliyeti",
-        "Driving License"
-    ],
-    "drivingLicense":
-    [
-        "B Sınıfı", "Class B"
-    ],
-    "militaryServiceTitle":
-    [
-        "Askerlik Durumu",
-        "Military Service"
-    ],
-    "militaryService":
-    [
-        "Muaf (Göz numarası yüksekliği)",
-        "Exempted"
-    ],
-
-    "skillPrograms":
-    [
-        "PROGRAMLAR",
-        "PROGRAMS"
-    ],
-    "skillSDT":
-    [
-        "YAZILIM GELİŞTİRME TEKNOLOJİLERİ",
-        "SOFTWARE DEVELOPMENT TECHNOLOGİES"
-    ],
-    "skillFLTitle":
-    [
-        "YABANCI DİL [İNGİLİZCE]",
-        "FOREİGN LANGUAGE [ENGLİSH]"
-    ],
-    "skillFLSpeaking":
-    [
-        "Konuşma",
-        "Speaking"
-    ],
-    "skillFLReading":
-    [
-        "Okuma",
-        "Reading"
-    ],
-    "skillFLWriting":
-    [
-        "Yazma",
-        "Writing"
-    ],
-    "skillFLBeginner":
-    [
-        "Başlangıç",
-        "Beginner"
-    ],
-
-    "companyText":
-    [
-        "firma",
-        "at"
-    ],
-    "experienceWork":
-    {
-        "Ars":
-        {
-            "workTitle":
-            [
-                "Geomatik Mühendisi",
-                "Geomatics Engineer"
-            ],
-            "companyName":
-            [
-                "ARS Mühendislik Danışmanlık Tic. A.Ş.",
-                "ARS Engineering and Consulting Inc."
-            ],
-            "dateWork":
-            [
-                "Aralık,2019 - Ocak,2021",
-                "Dec, 2019 - Aug, 2021"
-            ],
-            "description":
-            [
-                "Hidrografik, Jeofiziksel, Jeoteknik ve Oşinografik araştırma hizmetlerinin sunulduğu firmada Hidrografik araştırma ve raporlama da proje hazırlama, veri toplama, işleme ve raporlama aşamaları yapıldı.",
-                "In the company where Hydrographic, Geophysical, Geotechnical and Oceanographic research services are provided, I was doing the project preparation, data collection, processing and reporting stages in Hydrographic research and reporting."
-            ]
-        },
-        "Ind":
-        {
-            "workTitle":
-            [
-                "Veri Toplama, Üretim ve Entegrasyon Uzmanı",
-                "Data Collection, Production and Integration Specialist"
-            ],
-            "companyName":
-            [
-                "IND Yazılım Bilişim Teknolojileri Sanayi ve Tic. A. Ş.",
-                "IND Software Information Technologies Industry and Trade Inc."
-            ],
-            "dateWork":
-            [
-                "Ekim, 2018 - Ocak, 2019",
-                "Oct, 2018 - Jan, 2019"
-            ],
-            "description":
-            [
-                "İçişleri Bakanlığı'nın ve Nüfus ve Vatandaşlık İşleri Genel Müdürlüğünün ortak başlattığı Mekansal Adres Kayıt Sistemi(MAKS) projesi kapsamında belediyelerin ve il özel idarelerinin sorumluluğu içerisinde bulunan yapıların, diğer yapıların ve yolların halihazırdaki durumlarının kontrolü ve bunlara ait altlık oluşturacak verilerin tespiti ve bu verilerin ulusal adres veri tabanı kayıtlarıyla karşılaştırılıp sisteme entegre edilmesi yapıldı.",
-                "Within the scope of the Spatial Address Registration System (MAKS) project, jointly initiated by the Ministry of Interior and the General Directorate of Population and Citizenship Affairs, the control of the current status of the structures, other structures and roads that are under the responsibility of municipalities and special provincial administrations, and the determination of the data that will form the basis for them, and the determination of the national data of these data. I was making sure that they were compared with the address database records and integrated into the system."
-            ]
-        },
-        "Kordil":
-        {
-            "workTitle":
-            [
-                "Geomatik Mühendisi",
-                "Geomatics Engineer"
-            ],
-            "companyName":
-            [
-                "Kordil Mühendislik Sanayi ve Ticaret Ltd. Şti.",
-                "Kordil Surveying & Engineering Ltd. Co."
-            ],
-            "dateWork":
-            [
-                "Mart, 2017 - Ocak, 2018",
-                "Mar, 2017 - Jan, 2018"
-            ],
-            "description":
-            [
-                "Plankote ve halihazır harita yapımı, inşaat ve yapı sektörü, multibeam ve singlebeam batimetri gibi ölçme tekniklerinde tecrübeler edinildi.",
-                "I gained experience in surveying techniques such as dimentional plan and existing map making, construction and building industry, multibeam and singlebeam bathymetry."
-            ]
-        }
-    },
-
-    "softwareDevelopmentTitle":
-    [
-        "Yazılım Geliştirme",
-        "Software Development"
-    ],
-    "technologiesText":
-    [
-        "teknolojiler",
-        "technologies"
-    ],
-    "experienceSoftware":
-    {
-        "developmentDesktop":
-        {
-            "title":
-            [
-                "Geliştirilen Masaüstü Programlar",
-                "Developed Desktop Programs"
-            ],
-            "contents":
-            {
-                "ExplorerLock":
-                {
-                    "name":
-                    [
-                        "Explorer Lock",
-                        "Explorer Lock"
-                    ],
-                    "usedTechnologies":
-                    [
-                        "C#, WindowsForm, Windows Kayıt Defteri",
-                        "C#, WindowsForm, Windows Registry"
-                    ],
-                    "description":
-                    [
-                        "Bilgisayar ekranını, arka plan görünecek şekilde kırmızı renkle kaplayan program ile bilgisayar kullanım dışı bırakılıyor. Programın kapatılmaması için ‘Görev Yöneticisi’ programının açılması ‘Windows Kayıt Defterine’ eklenen ayar ile engelleniyor. Program bilgisayarın elektriği kesilene kadar veya yönetici girişi yapılana kadar açık kalıyor. Programın kapatılabilmesi için belirlenen tuşa basılıp yönetici girişi paneli açıldıktan sonra programa gömülü şifre girilip yönetici girişi yapıldığında program devre dışı kalıyor.",
-                        "The computer is rendered out of use with the program that covers the computer screen in red so that the background is visible. In order not to close the program, the opening of the 'Task Manager' program is prevented by the setting added to the 'Windows Registry'. The program stays open until the power of the computer is cut off or until the administrator logs in. In order to close the program, after pressing the specified key and opening the administrator login panel, the program is deactivated when the embedded password is entered and the administrator login is made."
-                    ]
-                },
-                "KriptoB":
-                {
-                    "name":
-                    [
-                        "KriptoB",
-                        "KriptoB"
-                    ],
-                    "usedTechnologies":
-                    [
-                        "C#, WindowsForm",
-                        "C#, WindowsForm"
-                    ],
-                    "description":
-                    [
-                        "Girilen metni alfabede harf kaydırma yöntemiyle yeni oluşan harf sırasına göre şifreli metine dönüştüren veya çözen, şifreli metin oluşturma programı.",
-                        "A ciphertext creation program that converts or decodes the entered text into ciphertext in alphabetical order by letter shifting method."
-                    ]
-                },
-                "CommandLine":
-                {
-                    "name":
-                    [
-                        "Komut Satırı Programları",
-                        "Command Line Programs"
-                    ],
-                    "usedTechnologies":
-                    [
-                        "C#",
-                        "C#"
-                    ],
-                    "description":
-                    [
-                        "Faktöriyel Hesaplama, İdeal Kilo Hesapla, İki Sayılı Dört İşlem, Oyuncu Bilgileri Ekle-Göster ve Sayı Tahmin Avı",
-                        "Factorial Calculation, Calculate Ideal Weight, Two-Number Four Actions, Add-Show Player Information and Number Prediction Hunt"
-                    ]
-                }
-            }
-        },
-        "developmentWebsite":
-        {
-            "title":
-            [
-                "Geliştirilen Websiteleri",
-                "Developed Websites"
-            ],
-            "contents":
-            {
-                "StaticWebsite":
-                {
-                    "name":
-                    [
-                        "Statik Websiteler",
-                        "Static Websites"
-                    ],
-                    "usedTechnologies":
-                    [
-                        "JavaScript, CSS, HTML, JSON",
-                        "JavaScript, CSS, HTML, JSON"
-                    ],
-                    "description":
-                    [
-                        "Firma ürünlerinin ve kurumsal kimliğinin gösterildiği OnePage veya MultiPage websiteler.",
-                        "OnePage or MultiPage websites showing company products and corporate identity."
-                    ]
-                },
-                "DynamicWebsites":
-                {
-                    "name":
-                    [
-                        "Dinamik Websiteler",
-                        "Dynamic Websites"
-                    ],
-                    "usedTechnologies":
-                    [
-                        "JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm",
-                        "JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm"
-                    ],
-                    "description":
-                    [
-                        "Firma ürünlerinin ve kurumsal kimliğinin gösterildiği dinamik websiteler. Bu websitesinin yönetimi firma tarafından yetkili kişilerce kullanıcı dostu yönetim paneli tarafından yapılmaktadır.",
-                        "Dynamic websites showing company products and corporate identity. The management of this website is carried out by authorized persons by the company, by a user-friendly management panel."
-                    ]
-                }
-            }
-        }
-    },
-
-    "educationText":
-    [
-        "okul",
-        "from"
-    ],
-    "educationContents":
-    {
-        "Anadolu":
-        {
-            "title":
-            [
-                "Anadolu Üniversitesi",
-                "Anadolu University"
-            ],
-            "graduated":
-            [
-                "Lisans Yönetim Bilişim Sistemleri",
-                "Bachelor Management Information Systems"
-            ],
-            "dateEdu":
-            [
-                "2018 - Halen",
-                "2018 - Present"
-            ]
-        },
-        "ÇanakkaleOnsekizMart":
-        {
-            "title":
-            [
-                "Çanakkale Onsekiz Mart Üniversitesi",
-                "Canakkale Onsekiz Mart University"
-            ],
-            "graduated":
-            [
-                "Lisans Geomatik Mühendisliği",
-                "Bachelor Geomatics Engineering"
-            ],
-            "dateEdu":
-            [
-                "2012 - 2017",
-                "2012 - 2017"
-            ]
-        },
-        "KemalHasoğlu":
-        {
-            "title":
-            [
-                "Kemal Hasoğlu Anadolu Lisesi",
-                "Kemal Hasoglu Anatolian High School"
-            ],
-            "graduated":
-            [
-                "MF(Matematik-Fen Sayısal Ağırlıklı)",
-                "MF(Mathematics-Science Numerical Weighting)"
-            ],
-            "dateEdu":
-            [
-                "2010 - 2012",
-                "2010 - 2012"
-            ]
-        },
-        "CemileYeşil":
-        {
-            "title":
-            [
-                "Cemile Yeşil Anadolu Lisesi",
-                "Cemile Yesil Anatolian High School"
-            ],
-            "graduated":
-            [
-                "MF(Matematik-Fen Sayısal Ağırlıklı)",
-                "MF(Mathematics-Science Numerical Weighting)"
-            ],
-            "dateEdu":
-            [
-                "2008 - 2010",
-                "2008 - 2010"
-            ]
-        }
-    },
-
-    "cForm":
-    {
-        "NameSurname":
-        [
-            "İsim Soyisim",
-            "Name Surname"
-        ],
-        "Mail":
-        [
-            "E-posta Adresi",
-            "E-mail address"
-        ],
-        "Message":
-        [
-            "Mesaj",
-            "Message"
-        ],
-        "Button":
-        [
-            "Gönder",
-            "Send"
-        ]
-    },
-
-    "Footer":
-    {
-        "design":
-        [
-            "Tasarım",
-            "Design"
-        ],
-        "developer":
-        [
-            "Geliştirici",
-            "Developer"
-        ]
+    "Kordil": {
+      "workTitle": [
+        "Geomatik Mühendisi",
+        "Geomatics Engineer"
+      ],
+      "companyName": [
+        "Kordil Mühendislik Sanayi ve Ticaret Ltd. Şti.",
+        "Kordil Surveying & Engineering Ltd. Co."
+      ],
+      "dateWork": [
+        "Mart, 2017 - Ocak, 2018",
+        "Mar, 2017 - Jan, 2018"
+      ],
+      "description": [
+        "Plankote ve halihazır harita yapımı, inşaat ve yapı sektörü, multibeam ve singlebeam batimetri gibi ölçme tekniklerinde tecrübeler edinildi.",
+        "I gained experience in surveying techniques such as dimentional plan and existing map making, construction and building industry, multibeam and singlebeam bathymetry."
+      ]
     }
+  },
+
+  "softwareDevelopmentTitle": [
+    "Yazılım Geliştirme",
+    "Software Development"
+  ],
+  "technologiesText": [
+    "teknolojiler",
+    "technologies"
+  ],
+  "experienceSoftware": {
+    "developmentDesktop": {
+      "title": [
+        "Geliştirilen Masaüstü Programlar",
+        "Developed Desktop Programs"
+      ],
+      "contents": {
+        "ExplorerLock": {
+          "name": [
+            "Explorer Lock",
+            "Explorer Lock"
+          ],
+          "usedTechnologies": [
+            "C#, WindowsForm, Windows Kayıt Defteri",
+            "C#, WindowsForm, Windows Registry"
+          ],
+          "description": [
+            "Bilgisayar ekranını, arka plan görünecek şekilde kırmızı renkle kaplayan program ile bilgisayar kullanım dışı bırakılıyor. Programın kapatılmaması için ‘Görev Yöneticisi’ programının açılması ‘Windows Kayıt Defterine’ eklenen ayar ile engelleniyor. Program bilgisayarın elektriği kesilene kadar veya yönetici girişi yapılana kadar açık kalıyor. Programın kapatılabilmesi için belirlenen tuşa basılıp yönetici girişi paneli açıldıktan sonra programa gömülü şifre girilip yönetici girişi yapıldığında program devre dışı kalıyor.",
+            "The computer is rendered out of use with the program that covers the computer screen in red so that the background is visible. In order not to close the program, the opening of the 'Task Manager' program is prevented by the setting added to the 'Windows Registry'. The program stays open until the power of the computer is cut off or until the administrator logs in. In order to close the program, after pressing the specified key and opening the administrator login panel, the program is deactivated when the embedded password is entered and the administrator login is made."
+          ]
+        },
+        "KriptoB": {
+          "name": [
+            "KriptoB",
+            "KriptoB"
+          ],
+          "usedTechnologies": [
+            "C#, WindowsForm",
+            "C#, WindowsForm"
+          ],
+          "description": [
+            "Girilen metni alfabede harf kaydırma yöntemiyle yeni oluşan harf sırasına göre şifreli metine dönüştüren veya çözen, şifreli metin oluşturma programı.",
+            "A ciphertext creation program that converts or decodes the entered text into ciphertext in alphabetical order by letter shifting method."
+          ]
+        },
+        "CommandLine": {
+          "name": [
+            "Komut Satırı Programları",
+            "Command Line Programs"
+          ],
+          "usedTechnologies": [
+            "C#",
+            "C#"
+          ],
+          "description": [
+            "Faktöriyel Hesaplama, İdeal Kilo Hesapla, İki Sayılı Dört İşlem, Oyuncu Bilgileri Ekle-Göster ve Sayı Tahmin Avı",
+            "Factorial Calculation, Calculate Ideal Weight, Two-Number Four Actions, Add-Show Player Information and Number Prediction Hunt"
+          ]
+        }
+      }
+    },
+    "developmentWebsite": {
+      "title": [
+        "Geliştirilen Websiteleri",
+        "Developed Websites"
+      ],
+      "contents": {
+        "StaticWebsite": {
+          "name": [
+            "Statik Websiteler",
+            "Static Websites"
+          ],
+          "usedTechnologies": [
+            "JavaScript, CSS, HTML, JSON",
+            "JavaScript, CSS, HTML, JSON"
+          ],
+          "description": [
+            "Firma ürünlerinin ve kurumsal kimliğinin gösterildiği OnePage veya MultiPage websiteler.",
+            "OnePage or MultiPage websites showing company products and corporate identity."
+          ]
+        },
+        "DynamicWebsites": {
+          "name": [
+            "Dinamik Websiteler",
+            "Dynamic Websites"
+          ],
+          "usedTechnologies": [
+            "JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm",
+            "JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm"
+          ],
+          "description": [
+            "Firma ürünlerinin ve kurumsal kimliğinin gösterildiği dinamik websiteler. Bu websitesinin yönetimi firma tarafından yetkili kişilerce kullanıcı dostu yönetim paneli tarafından yapılmaktadır.",
+            "Dynamic websites showing company products and corporate identity. The management of this website is carried out by authorized persons by the company, by a user-friendly management panel."
+          ]
+        }
+      }
+    }
+  },
+
+  "educationText": [
+    "okul",
+    "from"
+  ],
+  "educationContents": {
+    "Anadolu": {
+      "title": [
+        "Anadolu Üniversitesi",
+        "Anadolu University"
+      ],
+      "graduated": [
+        "Lisans Yönetim Bilişim Sistemleri",
+        "Bachelor Management Information Systems"
+      ],
+      "dateEdu": [
+        "2018 - Halen",
+        "2018 - Present"
+      ]
+    },
+    "ÇanakkaleOnsekizMart": {
+      "title": [
+        "Çanakkale Onsekiz Mart Üniversitesi",
+        "Canakkale Onsekiz Mart University"
+      ],
+      "graduated": [
+        "Lisans Geomatik Mühendisliği",
+        "Bachelor Geomatics Engineering"
+      ],
+      "dateEdu": [
+        "2012 - 2017",
+        "2012 - 2017"
+      ]
+    },
+    "KemalHasoğlu": {
+      "title": [
+        "Kemal Hasoğlu Anadolu Lisesi",
+        "Kemal Hasoglu Anatolian High School"
+      ],
+      "graduated": [
+        "MF(Matematik-Fen Sayısal Ağırlıklı)",
+        "MF(Mathematics-Science Numerical Weighting)"
+      ],
+      "dateEdu": [
+        "2010 - 2012",
+        "2010 - 2012"
+      ]
+    },
+    "CemileYeşil": {
+      "title": [
+        "Cemile Yeşil Anadolu Lisesi",
+        "Cemile Yesil Anatolian High School"
+      ],
+      "graduated": [
+        "MF(Matematik-Fen Sayısal Ağırlıklı)",
+        "MF(Mathematics-Science Numerical Weighting)"
+      ],
+      "dateEdu": [
+        "2008 - 2010",
+        "2008 - 2010"
+      ]
+    }
+  },
+
+  "cForm": {
+    "NameSurname": [
+      "İsim Soyisim",
+      "Name Surname"
+    ],
+    "Mail": [
+      "E-posta Adresi",
+      "E-mail address"
+    ],
+    "Message": [
+      "Mesaj",
+      "Message"
+    ],
+    "Button": [
+      "Gönder",
+      "Send"
+    ]
+  },
+
+  "Footer": {
+    "design": [
+      "Tasarım",
+      "Design"
+    ],
+    "developer": [
+      "Geliştirici",
+      "Developer"
+    ]
+  },
+
+  "SG": [
+    0,
+    "00.00.0000 00.00.00"
+  ]
 }
