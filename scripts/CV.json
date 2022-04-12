@@ -237,46 +237,18 @@
         "Developed Desktop Programs"
       ],
       "contents": {
-        "ExplorerLock": {
+        "WindowsApp": {
           "name": [
-            "Explorer Lock",
-            "Explorer Lock"
+            "XmlMapper, DoIt, ExplorerLock, KriptoB, Komut Satırı Programları",
+            "XmlMapper, DoIt, ExplorerLock, KriptoB, Command Line Programs"
           ],
           "usedTechnologies": [
-            "C#, WindowsForm, Windows Kayıt Defteri",
-            "C#, WindowsForm, Windows Registry"
+            "C#, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL, MySql",
+            "C#, WindowsForm, Windows Registry, Xml, EntityFramework, SQL, MySql"
           ],
           "description": [
-            "Bilgisayar ekranını, arka plan görünecek şekilde kırmızı renkle kaplayan program ile bilgisayar kullanım dışı bırakılıyor. Programın kapatılmaması için ‘Görev Yöneticisi’ programının açılması ‘Windows Kayıt Defterine’ eklenen ayar ile engelleniyor. Program bilgisayarın elektriği kesilene kadar veya yönetici girişi yapılana kadar açık kalıyor. Programın kapatılabilmesi için belirlenen tuşa basılıp yönetici girişi paneli açıldıktan sonra programa gömülü şifre girilip yönetici girişi yapıldığında program devre dışı kalıyor.",
+            "İhtiyaçlar doğrultusunda geliştirilen büyük ve küçük ölçekli uygulamaların yapımı, geliştirilmesi veya test edilmesi yapıldı.",
             "The computer is rendered out of use with the program that covers the computer screen in red so that the background is visible. In order not to close the program, the opening of the 'Task Manager' program is prevented by the setting added to the 'Windows Registry'. The program stays open until the power of the computer is cut off or until the administrator logs in. In order to close the program, after pressing the specified key and opening the administrator login panel, the program is deactivated when the embedded password is entered and the administrator login is made."
-          ]
-        },
-        "KriptoB": {
-          "name": [
-            "KriptoB",
-            "KriptoB"
-          ],
-          "usedTechnologies": [
-            "C#, WindowsForm",
-            "C#, WindowsForm"
-          ],
-          "description": [
-            "Girilen metni alfabede harf kaydırma yöntemiyle yeni oluşan harf sırasına göre şifreli metine dönüştüren veya çözen, şifreli metin oluşturma programı.",
-            "A ciphertext creation program that converts or decodes the entered text into ciphertext in alphabetical order by letter shifting method."
-          ]
-        },
-        "CommandLine": {
-          "name": [
-            "Komut Satırı Programları",
-            "Command Line Programs"
-          ],
-          "usedTechnologies": [
-            "C#",
-            "C#"
-          ],
-          "description": [
-            "Faktöriyel Hesaplama, İdeal Kilo Hesapla, İki Sayılı Dört İşlem, Oyuncu Bilgileri Ekle-Göster ve Sayı Tahmin Avı",
-            "Factorial Calculation, Calculate Ideal Weight, Two-Number Four Actions, Add-Show Player Information and Number Prediction Hunt"
           ]
         }
       }
