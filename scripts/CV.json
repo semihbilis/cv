@@ -237,18 +237,40 @@
         "Developed Desktop Programs"
       ],
       "contents": {
-        "WindowsApp": {
+        "DesktopApp": {
           "name": [
             "XmlMapper, DoIt, ExplorerLock, KriptoB, Komut Satırı Programları",
             "XmlMapper, DoIt, ExplorerLock, KriptoB, Command Line Programs"
           ],
           "usedTechnologies": [
-            "C#, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL, MySql",
-            "C#, WindowsForm, Windows Registry, Xml, EntityFramework, SQL, MySql"
+            "C#, Asp.Net, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL, MySql",
+            "C#, Asp.Net, WindowsForm, Windows Registry, Xml, EntityFramework, SQL, MySql"
           ],
           "description": [
             "İhtiyaçlar doğrultusunda geliştirilen büyük ve küçük ölçekli uygulamaların yapımı, geliştirilmesi veya test edilmesi yapıldı.",
-            "The computer is rendered out of use with the program that covers the computer screen in red so that the background is visible. In order not to close the program, the opening of the 'Task Manager' program is prevented by the setting added to the 'Windows Registry'. The program stays open until the power of the computer is cut off or until the administrator logs in. In order to close the program, after pressing the specified key and opening the administrator login panel, the program is deactivated when the embedded password is entered and the administrator login is made."
+            "Large and small scale applications developed according to the needs were built, developed or tested."
+          ]
+        }
+      }
+    },
+    "developmentMobile": {
+      "title": [
+        "Geliştirilen Mobil Uygulamalar",
+        "Developed Mobile Applications"
+      ],
+      "contents": {
+        "DesktopApp": {
+          "name": [
+            "agasdfasdgasdf",
+            "agasdfasdgasdf"
+          ],
+          "usedTechnologies": [
+            "C#, Asp.Net, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL, MySql",
+            "C#, Asp.Net, WindowsForm, Windows Registry, Xml, EntityFramework, SQL, MySql"
+          ],
+          "description": [
+            "İhtiyaçlar doğrultusunda geliştirilen büyük ve küçük ölçekli uygulamaların yapımı, geliştirilmesi veya test edilmesi yapıldı.",
+            "Large and small scale applications developed according to the needs were built, developed or tested."
           ]
         }
       }
