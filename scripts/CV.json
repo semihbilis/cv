@@ -253,28 +253,6 @@
         }
       }
     },
-    "developmentMobile": {
-      "title": [
-        "Geliştirilen Mobil Uygulamalar",
-        "Developed Mobile Applications"
-      ],
-      "contents": {
-        "DesktopApp": {
-          "name": [
-            "agasdfasdgasdf",
-            "agasdfasdgasdf"
-          ],
-          "usedTechnologies": [
-            "C#, Asp.Net, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL, MySql",
-            "C#, Asp.Net, WindowsForm, Windows Registry, Xml, EntityFramework, SQL, MySql"
-          ],
-          "description": [
-            "İhtiyaçlar doğrultusunda geliştirilen büyük ve küçük ölçekli uygulamaların yapımı, geliştirilmesi veya test edilmesi yapıldı.",
-            "Large and small scale applications developed according to the needs were built, developed or tested."
-          ]
-        }
-      }
-    },
     "developmentWebsite": {
       "title": [
         "Geliştirilen Websiteleri",
