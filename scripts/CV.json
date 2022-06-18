@@ -239,12 +239,12 @@
       "contents": {
         "DesktopApp": {
           "name": [
-            "XmlMapper, DoIt, ExplorerLock, KriptoB, Komut Satırı Programları",
-            "XmlMapper, DoIt, ExplorerLock, KriptoB, Command Line Programs"
+            "XmlMapper, ExplorerLock, KriptoB, Komut Satırı Programları",
+            "XmlMapper, ExplorerLock, KriptoB, Command Line Programs"
           ],
           "usedTechnologies": [
-            "C#, Asp.Net, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL, MySql",
-            "C#, Asp.Net, WindowsForm, Windows Registry, Xml, EntityFramework, SQL, MySql"
+            "C#, Asp.Net, WindowsForm, Windows Kayıt Defteri, Xml, EntityFramework, SQL",
+            "C#, Asp.Net, WindowsForm, Windows Registry, Xml, EntityFramework, SQL"
           ],
           "description": [
             "İhtiyaçlar doğrultusunda geliştirilen büyük ve küçük ölçekli uygulamaların yapımı, geliştirilmesi veya test edilmesi yapıldı.",
@@ -279,8 +279,8 @@
             "Dynamic Websites"
           ],
           "usedTechnologies": [
-            "JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm",
-            "JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm"
+            "C#, JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm",
+            "C#, JavaScript, CSS, HTML, ASP.NET, EntityFramework, SQL, WebForm"
           ],
           "description": [
             "Firma ürünlerinin ve kurumsal kimliğinin gösterildiği dinamik websiteler. Bu websitesinin yönetimi firma tarafından yetkili kişilerce kullanıcı dostu yönetim paneli tarafından yapılmaktadır.",
