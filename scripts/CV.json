@@ -247,7 +247,7 @@
             "Xamarin.Forms, Prism Library, Syncfusion UI Component, Rest API, Akavache Cache"
           ],
           "description": [
-            "Xamarin.Forms ile iOS, Android ve UWP(Mobil&Masaüstü) cross-platform uygulama geliştirme yapıldı.",
+            "Xamarin.Forms ile iOS, Android ve UWP(Mobil&Masaüstü) cross-platform uygulama geliştirmesi yapıldı.",
             "iOS, Android and UWP (Mobile & Desktop) cross-platform application development was made with Xamarin.Forms."
           ]
         }
