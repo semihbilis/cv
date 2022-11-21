@@ -231,6 +231,28 @@
     "technologies"
   ],
   "experienceSoftware": {
+    "developmentMobil": {
+      "title": [
+        "Geliştirilen Mobil Uygulamalar",
+        "Developed Mobile Applications"
+      ],
+      "contents": {
+        "MobilApp": {
+          "name": [
+            "Cross-Platform Mobil Uygulamalar",
+            "Cross-Platform Mobile Applications"
+          ],
+          "usedTechnologies": [
+            "Xamarin.Forms, Prism Library, Syncfusion UI Component, Rest API, Akavache Cache",
+            "Xamarin.Forms, Prism Library, Syncfusion UI Component, Rest API, Akavache Cache"
+          ],
+          "description": [
+            "Xamarin.Forms ile iOS, Android ve UWP(Mobil&Masaüstü) cross-platform uygulama geliştirme yapıldı.",
+            "iOS, Android and UWP (Mobile & Desktop) cross-platform application development was made with Xamarin.Forms."
+          ]
+        }
+      }
+    },
     "developmentDesktop": {
       "title": [
         "Geliştirilen Masaüstü Programlar",
