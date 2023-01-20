@@ -211,7 +211,7 @@
 	{
       "workTitle":
 	  [
-        "Yazılım Geliştirici",
+        "Yazılım Uzmanı",
         "Software Developer"
       ],
       "companyName":
@@ -221,13 +221,36 @@
       ],
       "dateWork":
 	  [
-        "Temmuz,2023 - Halen",
+        "Temmuz, 2023 - Halen",
         "July, 2023 - Present"
       ],
       "description":
 	  [
         "Xamarin.Forms ile iOS, Android ve UWP(Mobil&Masaüstü) cross-platform uygulama geliştirme yapıyorum.",
         "I am developing cross-platform applications for iOS, Android and UWP(Mobile & Desktop) with Xamarin.Forms."
+      ]
+    },
+    "Nevaa":
+	{
+      "workTitle":
+	  [
+        "Junior Yazılım Uzmanı",
+        "Junior Software DeveloperJunior"
+      ],
+      "companyName":
+	  [
+        "Nevaa Yazılım",
+        "Nevaa Software"
+      ],
+      "dateWork":
+	  [
+        "Eylül, 2021 - Şubat, 2022",
+        "September, 2021 - February, 2022"
+      ],
+      "description":
+	  [
+        "Müşterilere uzaktan yazılım ve donanım desteği verdim. Gerekli görüldüğünde windows işletim sistemi kurulumu, donanım güncellemesi ve program problemleri gibi bilgisayar problemleriyle alakalı sistem düzeltilmesi yaptım. Ön muhasebe ve perakende satış uygulamasında, tedarikçi firmaların xml ürün verisi entegrasyonlarını ayrıca yazılım geliştirme ve bugfix lerini yaptım.",
+        "Provided remote software and hardware support to customers. When deemed necessary, I made system corrections related to computer problems such as windows operating system installation, hardware update and program problems. In the pre-accounting and retail sales application, I made the xml product data integrations of the supplier companies, as well as software development and bugfixes."
       ]
     },
     "Ars":
@@ -244,7 +267,7 @@
       ],
       "dateWork":
 	  [
-        "Aralık,2019 - Ocak,2021",
+        "Aralık, 2019 - Ocak, 2021",
         "December, 2019 - Aug, 2021"
       ],
       "description":
