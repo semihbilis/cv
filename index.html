@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+   <meta charset="UTF-8">
+   <title>M.Semih BİLİŞ</title>
+   <meta name="viewport" content="width=device-width" />
+
+   <style>
+      page {
+         background: #fff;
+         display: block;
+         margin: 0 auto;
+         margin-bottom: 5mm;
+         margin-top: 5mm;
+      }
+
+      page[size="A4"] {
+         width: 210mm;
+         height: 297mm;
+      }
+
+      @page {
+         size: 210mm 297mm;
+         margin: 0;
+      }
+
+      /* Print settings */
+      @media print {
+
+         html,
+         body,
+         page {
+            width: 210mm;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+         }
+
+         #Header,
+         #Footer {
+            display: none !important;
+         }
+
+         button {
+            display: none;
+         }
+
+         section {
+            page-break-inside: avoid;
+            break-inside: avoid;
+            border-top: none !important;
+         }
+
+         .keySkills {
+            /* display: grid;
+            grid-template-columns: repeat(2, 1fr); */
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            column-fill: auto;
+         }
+
+         .keySkills li {
+            break-inside: avoid;
+         }
+
+         .no-print,
+         .no-print * {
+            display: none !important;
+         }
+      }
+
+      /* Print settings */
+
+      html,
+      body,
+      div,
+      span,
+      object,
+      iframe,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      blockquote,
+      pre,
+      abbr,
+      address,
+      cite,
+      code,
+      del,
+      dfn,
+      em,
+      img,
+      ins,
+      kbd,
+      q,
+      samp,
+      small,
+      strong,
+      sub,
+      sup,
+      var,
+      b,
+      i,
+      dl,
+      dt,
+      dd,
+      ol,
+      ul,
+      li,
+      fieldset,
+      form,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      article,
+      aside,
+      canvas,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section,
+      summary,
+      time,
+      mark,
+      audio,
+      video {
+         border: 0;
+         font: inherit;
+         font-size: 100%;
+         margin: 0;
+         padding: 0;
+         vertical-align: baseline;
+      }
+
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+         display: block;
+      }
+
+      html,
+      body {
+         font-family: 'Lato', helvetica, arial, sans-serif;
+         font-size: 11pt;
+         color: #222;
+      }
+
+      .clear {
+         clear: both;
+      }
+
+      p {
+         line-height: 15pt;
+         margin-bottom: 4mm;
+         color: #444;
+         word-break: break-word;
+      }
+
+      a {
+         text-decoration: none;
+      }
+
+      a:hover {
+         text-decoration: underline;
+      }
+
+      a,
+      .fa-check,
+      .fa-arrow-right {
+         color: #da2d2d;
+      }
+
+      .cv {
+         width: 210mm;
+         background: #fff;
+      }
+
+      .mainDetails {
+         padding: 8mm 0 0 8mm;
+         background: #fff;
+      }
+
+      #name {
+         float: left;
+         text-transform: uppercase;
+         padding: 8.5mm 0 0 7mm;
+      }
+
+      #name h1 {
+         font-size: 33pt;
+         font-weight: 400;
+         font-family: 'Oswald', Helvetica, Arial, sans-serif;
+         line-height: 38pt;
+         color: #da2d2d;
+      }
+
+      #name h2 {
+         font-size: 18pt;
+         font-family: 'Oswald', Helvetica, Arial, sans-serif;
+         line-height: 20pt;
+      }
+
+      #mainArea,
+      #mainAreaTwo {
+         padding: 0 8mm;
+      }
+
+      #headshot {
+         width: 46mm;
+         float: left;
+         margin-top: 10mm;
+         margin-left: -.5mm;
+      }
+
+      #headshot img {
+         width: 100%;
+         height: auto;
+         -webkit-border-radius: 50%;
+         border-radius: 50%;
+      }
+
+      .contactDetails {
+         float: right;
+         margin: 10mm 8mm 0 0;
+         float: right;
+      }
+
+      .contactDetails ul {
+         list-style-type: none;
+         font-family: 'Oswald', Helvetica, Arial, sans-serif;
+      }
+
+      .contactDetails ul li {
+         line-height: 24pt;
+         color: #444;
+      }
+
+      .contactDetails ul li a,
+      a[href^=tel] {
+         color: #444;
+         padding: 4px 8px;
+         text-decoration: none;
+         -webkit-transition: all .1s ease-in;
+         -moz-transition: all .1s ease-in;
+         -o-transition: all .1s ease-in;
+         -ms-transition: all .1s ease-in;
+         transition: all .1s ease-in;
+      }
+
+      .contactDetails ul li a:hover {
+         box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+         color: #da2d2d;
+      }
+
+      .icon {
+         font-size: 14pt;
+      }
+
+      .bold {
+         font-weight: bold;
+      }
+
+      section {
+         padding: 4mm 0 0 0;
+      }
+
+      section:first-child {
+         border-top: 0;
+         padding: 8mm 0 0 0;
+      }
+
+      section:last-child {
+         padding: 4mm 0 0 0;
+      }
+
+      .sectionTitle {
+         float: left;
+         width: 50mm;
+         margin-bottom: 6mm;
+      }
+
+      .sectionContent {
+         float: right;
+         width: 141mm;
+      }
+
+      .sectionTitle h1 {
+         font-family: 'Oswald', Helvetica, Arial, sans-serif;
+         font-weight: 400;
+         text-transform: uppercase;
+         font-size: 18pt;
+         color: #da2d2d;
+      }
+
+      .sectionContent h2 {
+         font-family: 'Oswald', Helvetica, Arial, sans-serif;
+         text-transform: uppercase;
+         font-size: 18pt;
+      }
+
+      .subDetails {
+         font-family: 'Lato', Helvetica, Arial, sans-serif;
+         font-size: 11pt;
+         font-weight: bold;
+         color: #da2d2d;
+      }
+
+      .nameDetails {
+         font-size: 11pt;
+         font-family: 'Lato', Helvetica, Arial, sans-serif;
+         color: #444;
+         text-transform: lowercase;
+      }
+
+      .keySkills {
+         list-style-type: none;
+         /* -moz-column-count: 2;
+         -webkit-column-count: 2;
+         column-count: 1; */
+         display: flex;
+         flex-wrap: wrap;
+         margin-bottom: 4mm;
+         font-size: 11pt;
+         color: #444;
+         line-height: 15pt;
+      }
+
+      .keySkills ul li {
+         margin-bottom: 6mm;
+      }
+
+      .keySkills li {
+         break-inside: avoid;
+         margin-bottom: 1mm;
+         margin-right: 4mm;
+      }
+
+      .clients {
+         list-style-type: none;
+         -moz-column-count: 1;
+         -webkit-column-count: 1;
+         column-count: 1;
+         margin-bottom: 4mm;
+         font-size: 11pt;
+         color: #444;
+         line-height: 15pt;
+         text-decoration: none;
+      }
+
+      .clients ul li {
+         margin-bottom: 6mm;
+      }
+
+      .list {
+         list-style-type: none;
+         -moz-column-count: 1;
+         -webkit-column-count: 1;
+         column-count: 1;
+         margin-bottom: 4mm;
+         font-size: 11pt;
+         color: #444;
+         line-height: 15pt;
+      }
+
+      .list li {
+         margin-bottom: 1mm;
+      }
+
+      button {
+         background-color: black;
+         width: 245px;
+         border: none;
+         outline: 0;
+         color: #fff;
+         font-family: 'Oswald', Helvetica, Arial, sans-serif;
+         font-size: 20px;
+         font-weight: bold;
+         padding: 8px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         margin: 0px 550px;
+         cursor: pointer;
+         text-transform: uppercase
+      }
+
+      button:hover {
+         box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+         color: #da2d2d;
+      }
+
+      #button {
+         width: 210mm;
+         height: 40px;
+         position: fixed;
+         z-index: 10;
+         background: #da2d2d;
+         border-bottom: solid #da2d2d 6px;
+         top: 0px;
+      }
+   </style>
+</head>
+
+<body id="top">
+   <!--Page 1-->
+   <page size="A4">
+      <div id="button" class="no-print" style="border-bottom: none;">
+         <button type="button" onclick="myFunction()">
+            <span class="button-txt"><i class="fa fa-print" aria-hidden="true"></i>
+               <label id="DButtonTitle">&nbsp;YAZDIR</label>
+            </span>
+         </button>
+         <script>
+            function myFunction() {
+               window.print();
+            }
+         </script>
+      </div>
+      <div class="cv">
+         <div id="header">
+            <div class="contactDetails">
+               <ul>
+                  <li class="icon" title="E-posta gönder">
+                     <a href="mailto:semihbilis@gmail.com">
+                        <i class="fa fa-envelope">&nbsp;&nbsp;</i>
+                        semihbilis@gmail.com
+                     </a>
+                  </li>
+
+                  <li class="icon" title="Ara">
+                     <a href="tel:+905456025153">
+                        <i class="fa fa-phone">&nbsp;&nbsp;</i>
+                        +90 545 602 51 53
+                     </a>
+                  </li>
+
+                  <li class="icon" title="Lokasyon">
+                     <a href="https://www.google.com/maps/place/İstanbul">
+                        <i class="fa-solid fa-location-dot">&nbsp;&nbsp;</i>
+                        İstanbul, Türkiye
+                     </a>
+                  </li>
+
+                  <li class="icon" title="Doğum Tarihi" style="padding: 0px 8px;">
+                     <i class="fa fa-cake-candles">&nbsp;&nbsp;</i>
+                     10/05/1994
+                  </li>
+
+                  <li class="icon" title="Cinsiyet" style="padding: 0px 8px;">
+                     <i class="fa fa-mars">&nbsp;&nbsp;</i>
+                     <label id="Gender">Erkek</label>
+                  </li>
+
+                  <li class="icon" title="Medeni Durum" style="padding: 0px 8px;">
+                     <i class="fa fa-ring">&nbsp;&nbsp;</i>
+                     <label id="MaritalStatus">Bekâr</label>
+                  </li>
+
+                  <li class="icon" title="Sürücü Ehliyeti" style="padding: 0px 8px;">
+                     <i class="fa fa-id-card">&nbsp;&nbsp;</i>
+                     <label id="DrivingLicense">A, B Sınıfı</label>
+                  </li>
+
+                  <li class="icon" title="Sürücü Ehliyeti" style="padding: 0px 8px;">
+                     <i class="fa-solid fa-language">&nbsp;&nbsp;</i>
+                     <label id="DrivingLicense">İnglizce (A2)</label>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="mainDetails">
+            <div id="headshot">
+               <img id="avatar" src="images/avatar.jpg" alt="MUHAMMED SEMİH BİLİŞ" title="MUHAMMED SEMİH BİLİŞ" />
+            </div>
+            <div id="name" style="text-align: center; margin-top: 37px;">
+               <h1 id="NameSurname">MUHAMMED<br>SEMİH BİLİŞ</h1>
+
+               <div class="contactDetails no-print" style="margin-top: 30px; float: left;">
+                  <ul style="display: inline-flex; gap: 17px;">
+                     <li class="icon">
+                        <a href="https://www.twitter.com/semihbilis" title="Twitter" target="_blank" rel="noopener noreferrer">
+                           <i class="fa fa-twitter"></i>
+                        </a>
+                     </li>
+
+                     <li class="icon">
+                        <a href="https://www.facebook.com/semihbilis053" title="Facebook" target="_blank" rel="noopener noreferrer">
+                           <i class="fa fa-facebook"></i>
+                        </a>
+                     </li>
+
+                     <li class="icon">
+                        <a href="https://www.instagram.com/semihbilis" title="Instagram" target="_blank" rel="noopener noreferrer">
+                           <i class="fa fa-instagram"></i>
+                        </a>
+                     </li>
+
+                     <li class="icon">
+                        <a class="nav-link" href="https://www.github.com/semihbilis" title="Github" target="_blank" rel="noopener noreferrer">
+                           <i class="fab fa-github"></i>
+                        </a>
+                     </li>
+
+                     <li class="icon">
+                        <a class="nav-link" href="https://www.linkedin.com/in/semihbilis" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                           <i class="fab fa-linkedin"></i>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="clear"></div>
+         </div>
+         <div id="mainArea">
+            <section style="padding-top: 11px;">
+               <article>
+                  <div class="sectionTitle">
+                     <h1 id="TAboutTitle">Hakkımda</h1>
+                  </div>
+                  <div class="sectionContent">
+                     <p id="TAbout" style="text-align: justify;">
+                        Eğitim hayatım ve tecrübelerim doğrultusunda farklı insanlarla birlikte çalışma, bir takımda yer alma ve birlikte üretebilmeyi öğrenme fırsatım oldu. Bu nedenle takımınıza kolaylıkla adapte olacağımı düşünüyorum.<br>İşini severek yapan ve detayları çok önemseyen biriyim. İnsan ilişkileri noktasında esnek olmanın bana verimlilik olarak geri döndüğünü sıklıkla tecrübe ettim. Yeni şeyler öğrenmeyi, yeteneklerimi geliştirmeyi çok önemsiyor, bu amaçla insan ilişkilerinin öğreticiliğinden faydalanmak gerektiğini düşünüyorum. Ekibimdeki insanlarla bilgi alışverişinde bulunmak benim için bu nedenle çok önemli.<br>Bir gün birlikte çalışmak dileğiyle.
+                     </p>
+                  </div>
+               </article>
+               <div class="clear"></div>
+            </section>
+            <section>
+               <div class="sectionTitle">
+                  <h1 id="CSkill">BECERİ</h1>
+               </div>
+               <div class="sectionContent">
+                  <ul class="keySkills">
+                     <li><i class="fa fa-check">&nbsp;</i>Blazor</li>
+                     <li><i class="fa fa-check">&nbsp;</i>WebAssembly</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Xamarin.Forms</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Platformlar Arası Geliştirme (Cross-Platform Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>iOS Geliştirme (iOS Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Android Geliştirme (Android Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>UWP Geliştirme (UWP Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Mobil Uygulama Geliştirme (Mobile Application Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Web Uygulama Geliştirme (Web Application Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Razor</li>
+                     <li><i class="fa fa-check">&nbsp;</i>C#</li>
+                     <li><i class="fa fa-check">&nbsp;</i>.NET Core</li>
+                     <li><i class="fa fa-check">&nbsp;</i>ASP.NET Core</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Ön Yüz Geliştirme (Frontend Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Arka Yüz Geliştirme (Backend Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Tam Yığın Geliştirme (Full-Stack Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>RESTful APIs</li>
+                     <li><i class="fa fa-check">&nbsp;</i>MVVM Mimarisi (MVVM Architecture)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Entity Framework Core</li>
+                     <li><i class="fa fa-check">&nbsp;</i>SQL</li>
+                     <li><i class="fa fa-check">&nbsp;</i>HTML</li>
+                     <li><i class="fa fa-check">&nbsp;</i>CSS</li>
+                     <li><i class="fa fa-check">&nbsp;</i>AJAX</li>
+                     <li><i class="fa fa-check">&nbsp;</i>JavaScript</li>
+                     <li><i class="fa fa-check">&nbsp;</i>JQuery</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Bootstrap</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Web API</li>
+                     <li><i class="fa fa-check">&nbsp;</i>LINQ</li>
+                     <li><i class="fa fa-check">&nbsp;</i>JSON</li>
+                     <li><i class="fa fa-check">&nbsp;</i>SOAP</li>
+                     <li><i class="fa fa-check">&nbsp;</i>XML</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Windows Form Uygulamaları</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Nesne Odaklı Programlama (Object Oriented Programming)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Duyarlı & Uyarlanabilir Geliştirme (Responsive & Adaptive Development)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>SCM, CRM, CLM, B2B Uygulamalarının Geliştirilmesi</li>
+                     <li><i class="fa fa-check">&nbsp;</i>İstemci Tarafı İşleme Uygulaması (Client Side Rendering App)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Sunucu Tarafı İşleme Uygulaması (Server Side Rendering App)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>UI/UX Tasarımlarını Kodlama ve Geliştirme</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Temiz Kod (Clean Code)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Çevik Metodolojiler (Agile Methodologies)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Sürüm Kontrolü (Version Control)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Sürekli Entegrasyon / Sürekli Dağıtım (Continuous Integration/Continuous Deployment)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Hidrografik Ölçüm (Hydrographic Surveying)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Jeofiziksel Ölçüm (Geophysical Surveying)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Jeoteknik Ölçüm (Geotechnical Surveying)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Oşinografik Araştırma (Oceanographic Research)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Veri Toplama (Data Collection)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Veri İşleme (Data Processing)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Haritalama (Mapping)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Coğrafi Bilgi Sistemleri (Geographic Information Systems)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Mekansal Veri Analizi (Spatial Data Analysis)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Topografik Ölçüm (Topographic Surveying)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Multibeam ve Singlebeam Batimetri (Multibeam and Singlebeam Bathymetry)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Ölçüm Cihazları (Surveying Instruments)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Proje Yönetimi (Project Management)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Raporlama (Reporting)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Mekansal Adres Kayıt Sistemi (Spatial Address Registration System)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Belediye Verisi Entegrasyonu</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Ulusal Adres Veritabanı</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Problem Çözme (Problem Solving)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Teknik Destek (Technical Support)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Sistem Kurulumu (System Installation)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Donanım ve Yazılım Sorun Giderme (Hardware and Software Troubleshooting)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Ekip İşbirliği (Team Collaboration)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Proje Koordinasyonu (Project Coordination)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Teknik Dokümantasyon (Technical Documentation)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Analitik Düşünme (Analytical Thinking)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Detaylara Dikkat (Attention to Detail)</li>
+                     <li><i class="fa fa-check">&nbsp;</i>Ofis Uygulamaları</li>
+                  </ul>
+               </div>
+               <div class="clear"></div>
+            </section>
+            <section>
+               <div class="sectionTitle">
+                  <h1 id="CExperience">DENEYİM</h1>
+               </div>
+               <div class="sectionContent">
+                  <ul class="list">
+                     <li>
+                        <span class="subDetails">Yazılım Uzmanı | </span>
+                        <span class="bold">Temmuz, 2023 - Halen | </span>
+                        İdesse Danışmanlık Yazılım Üretimi Ltd Şti.
+                        <br>
+                        <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                           <span class="subDetails">|</span>
+                           <p style="text-align: justify;">
+                              Xamarin.Forms ile iOS, Android ve UWP (Mobil ve Masaüstü) için çapraz platform uygulamaları geliştiriyorum. Aynı zamanda Blazor WASM projesinde komponent oluşturma, tasarım uygulama ve UI & UX düzenlemeleri üzerine çalışıyorum.
+                           </p>
+                        </div>
+                     </li>
+
+                     <li>
+                        <span class="subDetails">Junior Yazılım Uzmanı | </span>
+                        <span class="bold">Eylül, 2021 - Şubat, 2022 | </span>
+                        Nevaa Yazılım
+                        <br>
+                        <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                           <span class="subDetails">|</span>
+                           <p style="text-align: justify;">
+                              Müşterilere uzaktan yazılım ve donanım desteği sağladım. Gerekli durumlarda Windows işletim sistemi kurulumu, donanım güncellemesi ve program sorunları gibi bilgisayar problemlerini çözdüm. Ayrıca ön muhasebe ve perakende satış uygulamasında tedarikçi firmaların XML ürün verisi entegrasyonlarını, ön yüz geliştirmelerini (frontend development), arka yüz geliştirmelerini (backend development), komponent seti oluşturmayı, temiz kod düzenlemelerini (clean code), performans odaklı optimizasyonları ve görev zamanlı havuz verisi güncellemesi yapan ek bir konsol uygulaması geliştirdim. Yazılım geliştirme ve hata düzeltmeleri (bugfix) üzerinde çalıştım.
+                           </p>
+                        </div>
+                     </li>
+
+                     <li>
+                        <span class="subDetails">Geomatik Mühendisi | </span>
+                        <span class="bold">Aralık, 2019 - Ocak, 2021 | </span>
+                        ARS Mühendislik Danışmanlık Tic. A.Ş.
+                        <br>
+                        <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                           <span class="subDetails">|</span>
+                           <p style="text-align: justify;">
+                              Hidrografik, Jeofiziksel, Jeoteknik ve Oşinografik araştırma hizmetlerinin sunulduğu firmada Hidrografik araştırma ve raporlama da proje hazırlama, veri toplama, işleme ve raporlama aşamaları yapıldı.
+                           </p>
+                        </div>
+                     </li>
+
+                     <li>
+                        <span class="subDetails">Veri Toplama, Üretim ve Entegrasyon Uzmanı | </span>
+                        <span class="bold">Ekim, 2018 - Ocak, 2019 | </span>
+                        IND Yazılım Bilişim Teknolojileri Sanayi ve Tic. A. Ş.
+                        <br>
+                        <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                           <span class="subDetails">|</span>
+                           <p style="text-align: justify;">
+                              İçişleri Bakanlığı'nın ve Nüfus ve Vatandaşlık İşleri Genel Müdürlüğünün ortak başlattığı Mekansal Adres Kayıt Sistemi(MAKS) projesi kapsamında belediyelerin ve il özel idarelerinin sorumluluğu içerisinde bulunan yapıların, diğer yapıların ve yolların halihazırdaki durumlarının kontrolü ve bunlara ait altlık oluşturacak verilerin tespiti ve bu verilerin ulusal adres veri tabanı kayıtlarıyla karşılaştırılıp sisteme entegre edilmesi yapıldı.
+                           </p>
+                        </div>
+                     </li>
+
+                     <li>
+                        <span class="subDetails">Geomatik Mühendisi | </span>
+                        <span class="bold">Mart, 2017 - Ocak, 2018 | </span>
+                        Kordil Mühendislik Sanayi ve Ticaret Ltd. Şti.
+                        <br>
+                        <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                           <span class="subDetails">|</span>
+                           <p style="text-align: justify;">
+                              Plankote ve halihazır harita yapımı, inşaat ve yapı sektörü, multibeam ve singlebeam batimetri gibi ölçme tekniklerinde tecrübeler edinildi.
+                           </p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="clear"></div>
+            </section>
+            <section>
+               <div class="sectionTitle">
+                  <h1 id="CEducation">EĞİTİM</h1>
+               </div>
+               <div class="sectionContent" id="EducationContents">
+                  <ul class="list">
+                     <li><span class="subDetails">Lisans | </span><span class="bold">Yönetim Bilişim Sistemleri | </span>Anadolu Üniversitesi</li>
+                     <li><span class="subDetails">Lisans | </span><span class="bold">Geomatik Mühendisliği | </span>Çanakkale Onsekiz Mart Üniversitesi</li>
+                     <li><span class="subDetails">Lise | </span><span class="bold">Sayısal Ağırlıklı | </span>Kemal Hasoğlu Anadolu Lisesi</li>
+                  </ul>
+               </div>
+               <div class="clear"></div>
+            </section>
+         </div>
+      </div>
+   </page>
+
+   <script src="https://kit.fontawesome.com/4c872aa852.js" crossorigin="anonymous"></script>
+</body>
+<html>
