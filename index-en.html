@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>M.Semih BİLİŞ | CV</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        page {
+            background: #fff;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 5mm;
+            margin-top: 5mm;
+        }
+
+        page[size="A4"] {
+            width: 210mm;
+            height: 297mm;
+        }
+
+        @page {
+            size: 210mm 297mm;
+            margin: 0;
+        }
+
+        /* Print settings */
+        @media print {
+
+            html,
+            body,
+            page {
+                width: 210mm;
+                height: 100%;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            #Header,
+            #Footer {
+                display: none !important;
+            }
+
+            button {
+                display: none;
+            }
+
+            section {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                border-top: none !important;
+            }
+
+            .keySkills {
+                display: flex;
+                flex-wrap: wrap;
+                list-style-type: none;
+                column-fill: auto;
+            }
+
+            .keySkills li {
+                break-inside: avoid;
+            }
+
+            .no-print,
+            .no-print * {
+                display: none !important;
+            }
+        }
+
+        /* Print settings */
+
+        html,
+        body,
+        div,
+        span,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        abbr,
+        address,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        samp,
+        small,
+        strong,
+        sub,
+        sup,
+        var,
+        b,
+        i,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            margin: 0;
+            padding: 0;
+            vertical-align: baseline;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        html,
+        body {
+            font-family: 'Lato', helvetica, arial, sans-serif;
+            font-size: 11pt;
+            color: #222;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        p {
+            line-height: 15pt;
+            margin-bottom: 4mm;
+            color: #444;
+            word-break: break-word;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .cv {
+            width: 210mm;
+            background: #fff;
+        }
+
+        .mainDetails {
+            padding: 8mm 0 0 8mm;
+            background: #fff;
+        }
+
+        #name {
+            float: left;
+            text-transform: uppercase;
+            padding: 8.5mm 0 0 7mm;
+        }
+
+        #name h1 {
+            font-size: 33pt;
+            font-weight: 400;
+            font-family: 'Oswald', Helvetica, Arial, sans-serif;
+            line-height: 38pt;
+            color: #da2d2d;
+        }
+
+        #name h2 {
+            font-size: 18pt;
+            font-family: 'Oswald', Helvetica, Arial, sans-serif;
+            line-height: 20pt;
+        }
+
+        #mainArea,
+        #mainAreaTwo {
+            padding: 0 8mm;
+        }
+
+        #headshot {
+            width: 46mm;
+            float: left;
+            margin-top: 10mm;
+            margin-left: -.5mm;
+        }
+
+        #headshot img {
+            width: 100%;
+            height: auto;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        .contactDetails {
+            float: right;
+            margin: 10mm 8mm 0 0;
+            float: right;
+        }
+
+        .contactDetails ul {
+            list-style-type: none;
+            font-family: 'Oswald', Helvetica, Arial, sans-serif;
+        }
+
+        .contactDetails ul li {
+            line-height: 24pt;
+            color: #444;
+        }
+
+        .contactDetails ul li a,
+        a[href^=tel] {
+            color: #444;
+            padding: 4px 8px;
+            text-decoration: none;
+            -webkit-transition: all .1s ease-in;
+            -moz-transition: all .1s ease-in;
+            -o-transition: all .1s ease-in;
+            -ms-transition: all .1s ease-in;
+            transition: all .1s ease-in;
+        }
+
+        .contactDetails ul li a:hover {
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            color: #da2d2d;
+        }
+
+        .icon {
+            font-size: 14pt;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        section {
+            padding: 4mm 0 0 0;
+        }
+
+        section:first-child {
+            border-top: 0;
+            padding: 8mm 0 0 0;
+        }
+
+        section:last-child {
+            padding: 4mm 0 0 0;
+        }
+
+        .sectionTitle {
+            float: left;
+            width: 50mm;
+            margin-bottom: 6mm;
+        }
+
+        .sectionContent {
+            float: right;
+            width: 141mm;
+        }
+
+        .sectionTitle h1 {
+            font-family: 'Oswald', Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 18pt;
+            color: #da2d2d;
+        }
+
+        .sectionContent h2 {
+            font-family: 'Oswald', Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
+            font-size: 18pt;
+        }
+
+        .subDetails {
+            font-family: 'Lato', Helvetica, Arial, sans-serif;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #da2d2d;
+        }
+
+        .nameDetails {
+            font-size: 11pt;
+            font-family: 'Lato', Helvetica, Arial, sans-serif;
+            color: #444;
+            text-transform: lowercase;
+        }
+
+        .keySkills {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 4mm;
+            font-size: 11pt;
+            color: #444;
+            line-height: 15pt;
+        }
+
+        .keySkills ul li {
+            margin-bottom: 6mm;
+        }
+
+        .keySkills li {
+            break-inside: avoid;
+            margin-bottom: 1mm;
+            margin-right: 4mm;
+        }
+
+        .keySkills i {
+            color: #da2d2d;
+        }
+
+        .min-width-36 i {
+            min-width: 36px;
+        }
+
+        .clients {
+            list-style-type: none;
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+            margin-bottom: 4mm;
+            font-size: 11pt;
+            color: #444;
+            line-height: 15pt;
+            text-decoration: none;
+        }
+
+        .clients ul li {
+            margin-bottom: 6mm;
+        }
+
+        .list {
+            list-style-type: none;
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+            margin-bottom: 4mm;
+            font-size: 11pt;
+            color: #444;
+            line-height: 15pt;
+        }
+
+        .list li {
+            margin-bottom: 1mm;
+        }
+
+        button {
+            background-color: black;
+            width: 245px;
+            border: none;
+            outline: 0;
+            color: #fff;
+            font-family: 'Oswald', Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0px 550px;
+            cursor: pointer;
+            text-transform: uppercase
+        }
+
+        button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            color: #da2d2d;
+        }
+
+        #button {
+            width: 210mm;
+            height: 40px;
+            position: fixed;
+            z-index: 10;
+            background: #da2d2d;
+            border-bottom: solid #da2d2d 6px;
+            top: 0px;
+        }
+    </style>
+
+    <script>
+        function myFunction() {
+            window.print();
+        }
+    </script>
+</head>
+
+<body id="top">
+    <page size="A4">
+        <div id="button" class="no-print" style="border-bottom: none; display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" style="color: white; text-decoration: none; font-family: 'Oswald', Helvetica, Arial, sans-serif; font-size: 20px; min-width: 100px; text-align: center;">Türkçe</a>
+            <span style="color: #b3b3b3; margin-left: 11px;">Last Update: 07/01/2025</span>
+            <button type="button" onclick="myFunction()" style="margin: 0px">
+                <span class="button-txt"><i class="fa fa-print" aria-hidden="true"></i>
+                    <label id="DButtonTitle">&nbsp;PRINT</label>
+                </span>
+            </button>
+        </div>
+        <div class="cv">
+            <div id="header">
+                <div class="contactDetails">
+                    <ul class="min-width-36">
+                        <li class="icon" title="Ara">
+                            <a href="tel:+905456025153">
+                                <i class="fa fa-phone">&nbsp;&nbsp;</i>
+                                +90 545 602 51 53
+                            </a>
+                        </li>
+                        <li class="icon" title="E-posta gönder">
+                            <a href="mailto:semihbilis@gmail.com">
+                                <i class="fa fa-envelope">&nbsp;&nbsp;</i>
+                                semihbilis@gmail.com
+                            </a>
+                        </li>
+                        <li class="icon" title="Lokasyon">
+                            <a href="https://www.google.com/maps/place/İstanbul">
+                                <i class="fa-solid fa-location-dot">&nbsp;&nbsp;</i>
+                                İstanbul, Türkiye
+                            </a>
+                        </li>
+                        <li class="icon" title="Doğum Tarihi" style="padding: 0px 8px;">
+                            <i class="fa fa-cake-candles">&nbsp;&nbsp;</i>
+                            10/05/1994
+                        </li>
+                        <li class="icon" title="Cinsiyet" style="padding: 0px 8px;">
+                            <i class="fa fa-mars">&nbsp;&nbsp;</i>
+                            <label>Male</label>
+                        </li>
+                        <li class="icon" title="Medeni Durum" style="padding: 0px 8px;">
+                            <i class="fa fa-ring">&nbsp;&nbsp;</i>
+                            <label>Single</label>
+                        </li>
+                        <li class="icon" title="Sürücü Belgeleri" style="padding: 0px 8px;">
+                            <i class="fa fa-id-card">&nbsp;&nbsp;</i>
+                            <label>Driver's License (A, B)</label>
+                        </li>
+                        <li class="icon" title="Yabancı Dil" style="padding: 0px 8px;">
+                            <i class="fa-solid fa-language">&nbsp;&nbsp;</i>
+                            <label>English (A2)</label>
+                        </li>
+                        <li class="icon" title="Yabancı Dil" style="padding: 0px 8px;">
+                            <i class="fa-solid fa-grip-lines">&nbsp;&nbsp;</i>
+                            <label>Military Service: Exempt</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mainDetails">
+                <div id="headshot">
+                    <img src="images/avatar.jpg" alt="MUHAMMED SEMİH BİLİŞ" title="MUHAMMED SEMİH BİLİŞ" />
+                </div>
+                <div id="name" style="text-align: center; margin-top: 37px;">
+                    <h1>MUHAMMED<br>SEMİH BİLİŞ</h1>
+
+                    <div class="contactDetails no-print" style="margin-top: 30px; float: none; margin-right: 0px;">
+                        <ul style="display: flex; justify-content: space-evenly;">
+                            <li class="icon">
+                                <a class="nav-link" href="https://www.github.com/semihbilis" title="Github" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+
+                            <li class="icon">
+                                <a class="nav-link" href="https://www.linkedin.com/in/semihbilis" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="mainArea">
+                <section style="padding-top: 11px;">
+                    <article>
+                        <div class="sectionTitle">
+                            <h1>About Me</h1>
+                        </div>
+                        <div class="sectionContent">
+                            <p style="text-align: justify;">
+                                I am a software specialist who is team-oriented, detail-focused, and open to learning. While developing my technical skills, I have a work approach that prioritizes knowledge sharing and team synergy. I value discovering new technologies and improving my abilities.
+                            </p>
+                        </div>
+                    </article>
+                    <div class="clear"></div>
+                </section>
+                <section>
+                    <div class="sectionTitle">
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="sectionContent">
+                        <ul class="keySkills" style="text-align: justify;">
+                            <li>
+                                Programming Languages and Frameworks |
+                                <br />
+                                <span class="bold">
+                                    C#, .NET Core, ASP.NET Core, Entity Framework Core, VB.Net, FluentValidation, AutoMapper, CSLA, OAuth, MATLAB
+                                </span>
+                            </li>
+                            <li>
+                                Mobile Development |
+                                <br />
+                                <span class="bold">
+                                    Xamarin.Forms, Xamarin.iOS, Xamarin.Android, Xamarin.UWP, Cross-Platform Mobile Application Development, Prism Library, Akavache Cache, Syncfusion UI Component Set
+                                </span>
+                            </li>
+                            <li>
+                                Web Development |
+                                <br />
+                                <span class="bold">
+                                    Blazor, Razor, WebAssembly, RESTful API, Web API, MVC, Bootstrap, Tailwind, HTML, CSS, JavaScript, AJAX, JQuery, JSON, XML, SOAP, Full-Stack Development, MudBlazor, Created Self-Contained and Reusable Blazor Components
+                                </span>
+                            </li>
+                            <li>
+                                Database Management |
+                                <br />
+                                <span class="bold">
+                                    SQL, MySQL, MSSQL, PostgreSQL, LINQ, Data Collection and Processing, Geographic Information Systems
+                                </span>
+                            </li>
+                            <li>
+                                Tools and Platforms |
+                                <br />
+                                <span class="bold">
+                                    MS Visual Studio, MS SQL Server Management Studio, Swagger, Postman, NuGet, MS Teams, GitHub, Trello, Atlassian Jira, Hoppscotch, Quire
+                                </span>
+                            </li>
+                            <li>
+                                Software Architecture and Management |
+                                <br />
+                                <span class="bold">
+                                    Object Oriented Programming (OOP), MVVM, Design Patterns, Clean Code, Agile Methodologies (Scrum & Kanban), Version Control (Git), CI/CD, Project Management, Technical Support, Team Collaboration, Project Coordination
+                                </span>
+                            </li>
+                            <li>
+                                Additional Skills |
+                                <br />
+                                <span class="bold">
+                                    Development of SCM, CRM, CLM, B2B, B2C Applications, Pixel Perfect Coding and Development of UI/UX Designs, Data Mapping, Spatial Data Analysis, Reporting and Technical Documentation, Analytical Thinking, Attention to Detail, MS Office Applications, Windows Form Application, Dreamweaver, FrontPage, ArcGIS, GlobalMapper, Hypack, AutoCAD, NetCAD, SolidWorks, Esri ArcMap, MapInfo, Photoshop, Illustrator
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </section>
+                <section>
+                    <div class="sectionTitle">
+                        <h1>Education</h1>
+                    </div>
+                    <div class="sectionContent">
+                        <ul class="list">
+                            <li><span class="subDetails">Bachelor's Degree | </span><span class="bold">Management Information Systems | </span>Anadolu University</li>
+                            <li><span class="subDetails">Bachelor's Degree | </span><span class="bold">Geomatics Engineering | </span>Çanakkale Onsekiz Mart University</li>
+                            <li><span class="subDetails">High School | </span><span class="bold">Science Focus | </span>Kemal Hasoğlu Anatolian High School</li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </section>
+                <section>
+                    <div class="sectionTitle">
+                        <h1>Hobbies</h1>
+                    </div>
+                    <div class="sectionContent">
+                        <ul class="keySkills">
+                            <li><i class="fa-solid fa-motorcycle">&nbsp;</i>Riding motorcycle and discovering new routes</li>
+                            <li><i class="fa-solid fa-map-location-dot">&nbsp;</i>Gaining social and cultural experiences in different cities</li>
+                            <li><i class="fa-solid fa-book-open-reader">&nbsp;</i>Reading technical articles and discovering new technologies</li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </section>
+                <section>
+                    <div class="sectionTitle">
+                        <h1>Experience</h1>
+                    </div>
+                    <div class="sectionContent">
+                        <ul class="list">
+                            <li>
+                                <span class="subDetails">Software Development Specialist | </span>
+                                <span class="bold">July, 2023 - Present | </span>
+                                Idesse Consulting Software Production Ltd Co.
+                                <br>
+                                <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                                    <span class="subDetails">|</span>
+                                    <p style="text-align: justify;">
+                                        I develop cross-platform applications for iOS, Android, and UWP (Mobile and Desktop) using Xamarin.Forms. I also work on creating components, implementing designs, and making UI & UX adjustments in the Blazor WASM project.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="subDetails">Junior Software Developer | </span>
+                                <span class="bold">September, 2021 - February, 2022 | </span>
+                                Nevaa Software
+                                <br>
+                                <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                                    <span class="subDetails">|</span>
+                                    <p style="text-align: justify;">
+                                        I provided remote software and hardware support to customers. When necessary, I solved computer problems such as Windows operating system installation, hardware updates, and program issues. Additionally, I developed supplier XML product data integrations, frontend development, backend development, component set creation, clean code arrangements, performance-focused optimizations, and an additional console application that updates pool data on scheduled tasks in the pre-accounting and retail sales application.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="subDetails">Geomatics Engineer | </span>
+                                <span class="bold">December, 2019 - January, 2021 | </span>
+                                ARS Engineering Consulting Trade Inc.
+                                <br>
+                                <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                                    <span class="subDetails">|</span>
+                                    <p style="text-align: justify;">
+                                        In the company providing Hydrographic, Geophysical, Geotechnical, and Oceanographic research services, project preparation, data collection, processing, and reporting stages were carried out in Hydrographic research and reporting.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="subDetails">Data Collection, Production and Integration Specialist | </span>
+                                <span class="bold">October, 2018 - January, 2019 | </span>
+                                IND Software Information Technologies Industry and Trade Inc.
+                                <br>
+                                <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                                    <span class="subDetails">|</span>
+                                    <p style="text-align: justify;">
+                                        Within the scope of the Spatial Address Registration System (MAKS) project initiated jointly by the Ministry of Interior and the General Directorate of Population and Citizenship Affairs, the control of the current status of buildings, other structures, and roads under the responsibility of municipalities and special provincial administrations, and the detection of data that will form the basis for these, and the comparison of these data with national address database records and integration into the system were carried out.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="subDetails">Geomatics Engineer | </span>
+                                <span class="bold">March, 2017 - January, 2018 | </span>
+                                Kordil Engineering Industry and Trade Ltd Co.
+                                <br>
+                                <div style="display: inline-flex; gap: 3px; margin-top: 3px;">
+                                    <span class="subDetails">|</span>
+                                    <p style="text-align: justify;">
+                                        Experience was gained in measurement techniques such as ground elevation plan and current situation map making, construction and building sector, multibeam and singlebeam bathymetry.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </section>
+            </div>
+        </div>
+    </page>
+
+    <script src="https://kit.fontawesome.com/4c872aa852.js" crossorigin="anonymous"></script>
+</body>
+<html>
